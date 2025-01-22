@@ -1,0 +1,199 @@
+[
+  {
+    "id": 1,
+    "name": "Hitika",
+    "image": "/images/team/Hitika.jpeg",
+    "designation": "HR Executive",
+    "department": ["Management"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 2,
+    "name": "Kirti Oswal",
+    "image": "/images/team/Kirti.jpeg",
+    "designation": "HR Recruiter",
+    "department": ["Management"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 3,
+    "name": "Rahul Hallen",
+    "image": "/images/team/Rahul1.jpeg",
+    "designation": "Designer",
+    "department": ["Designer"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 4,
+    "name": "Param Malik",
+    "image": "/images/team/Param.jpeg",
+    "designation": "Executive Assistant",
+    "department": ["Management"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 5,
+    "name": "Akash Dhiman",
+    "image": "/images/team/Akash.jpeg",
+    "designation": "Web Developer",
+    "department": [ "Developer"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Hii! I am Akash Dhiman." },
+  {
+    "id": 6,
+    "name": "Damini",
+    "image": "/images/team/Damini.jpeg",
+    "designation": "Business Development Executive",
+    "department": ["BD"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 7,
+    "name": "Akshat",
+    "image": "/images/team/Akshat.jpeg",
+    "designation": "Business Development Officer",
+    "department": ["BD"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 8,
+    "name": "Piyush",
+    "image": "/images/team/Piyush.jpeg",
+    "designation": "Sales Executive",
+    "department": ["Sales"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 9,
+    "name": "Shubham",
+    "image": "/images/team/Shubham.jpg",
+    "designation": "Sales Executive",
+    "department": ["Sales"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 10,
+    "name": "Aditya",
+    "image": "/images/team/Aditya.jpg",
+    "designation": "Sales Executive",
+    "department": ["Sales"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 11,
+    "name": "Shalini",
+    "image": "/images/team/Shalini.jpeg",
+    "designation": "Accountant",
+    "department": ["Finance"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  }
+]
