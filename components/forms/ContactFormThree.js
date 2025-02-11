@@ -13,10 +13,10 @@ const ContactFormThree = () => {
 
     emailjs
       .sendForm(
-        "service_mxdohie",
-        "template_z5cioqm",
+        "service_oqmw5h7",
+        "template_o1394bp",
         form.current,
-        "jpLEXw_LKyA6GgI_U"
+        "TdXgbLQTg_eS_Mcr6"
       )
       .then(
         (result) => {

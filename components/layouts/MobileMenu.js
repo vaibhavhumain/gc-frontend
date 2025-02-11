@@ -90,12 +90,12 @@ const MobileMenu = () => {
             <div className="inner">
                 <div className="mobileheader">
                     <div className="logo">
-                        <Link href="/home-01">
+                        <Link href="/">
                             <a>
                                 <Image
-                                    width={250}
-                                    height={60}
-                                    src="/images/logo/keystoke.svg"
+                                    width={220}
+                                    height={100}
+                                    src="/images/logo/GC logo.png"
                                     alt="Logo images"
                                 />
                             </a>

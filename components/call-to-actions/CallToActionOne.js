@@ -14,7 +14,8 @@ const CallToActionOne = () => {
                                 alignment="center"
                             />
                             <div className="text-center">
-                                <a className="axil-button btn-large btn-transparent" href="#">
+
+                                <a className="axil-button btn-large btn-transparent" href="/contact">
                                     <span className="button-text">Estimate Project</span>
                                     <span className="button-icon"/>
                                 </a>
@@ -24,7 +25,7 @@ const CallToActionOne = () => {
                                     </span>
                                     <span>
                                       <i className="fal fa-phone-alt"/>
-                                      <a href="tel:(123) 456 7890">(123) 456 7890</a>
+                                      <a href="tel:+919595000040">+91 9595 00 00 40</a>
                                     </span>
                                 </div>
                             </div>

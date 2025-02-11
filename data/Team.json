@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Hitika",
-    "image": "/images/team/Hitika.jpeg",
+    "image": "/images/team/Hitika.JPG",
     "designation": "HR Executive",
     "department": ["Management"],
     "socials": [
@@ -38,7 +38,7 @@
   {
     "id": 3,
     "name": "Rahul Hallen",
-    "image": "/images/team/Rahul1.jpeg",
+    "image": "/images/team/Rahul.JPG",
     "designation": "Designer",
     "department": ["Designer"],
     "socials": [
@@ -57,7 +57,7 @@
     "id": 4,
     "name": "Param Malik",
     "image": "/images/team/Param.jpeg",
-    "designation": "Executive Assistant",
+    "designation": "Executive Director/Data Analyst",
     "department": ["Management"],
     "socials": [
       { "type": "facebook", "url": "#" },
@@ -69,7 +69,7 @@
       { "type": "dribble", "url": "#" },
       { "type": "behance", "url": "#" }
     ],
-    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+    "introduction": "With 1.5 years of experience as a Data Analyst and a strong background in executive support, I bring a unique combination of organizational expertise and data-driven insights to my role as an Executive Assistant.My analytical skills enable me to interpret complex data, identify trends, and provide actionable recommendations that enhance decision-making and operational efficiency.  In addition to managing schedules, coordinating meetings, and handling high-level administrative tasks, I leverage my data analysis experience to track key metrics, streamline workflows, and support strategic planning. My adaptability, attention to detail, and proactive approach ensure that I anticipate needs and deliver results aligned with organizational goals.  By blending analytical capabilities with exceptional administrative skills, I am dedicated to optimizing processes, fostering collaboration, and contributing to the success of the executives I support."
   },
   {
     "id": 5,
@@ -138,7 +138,7 @@
       { "type": "instagram", "url": "#" },
       { "type": "vimeo", "url": "#" },
       { "type": "dribble", "url": "#" },
-      { "type": "behance", "url": "#" }
+      { "type": "behance", "url": "#" } 
     ],
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },

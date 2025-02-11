@@ -22,7 +22,7 @@ const CommingSoon = () => {
                                 <div className="col-xl-8 col-lg-10 col-12">
                                     <div className="content">
                                         <div className="logo pt--30">
-                                            <Link href="/home-01">
+                                            <Link href="/">
                                                 <a>
                                                     <Logo/>
                                                 </a>
@@ -30,7 +30,7 @@ const CommingSoon = () => {
                                         </div>
                                         <div className="inner">
                                             <h1 className="title mb--20">
-                                                Our new website is <br/> on its way
+                                                Our new product <br/> on its way
                                             </h1>
                                             <p className="subtitle-2 mb--40 mb_sm--20 mb_md--20">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}

@@ -16363,6 +16363,14 @@ Accourdion Style Two
 .slider-fixed-height {
   height: 950px;
   width: 100%;
+
+}
+.bannerStyleClass{
+  background: url(../../public/images/bg/manufacturing-bg.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 100px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-fixed-height {
@@ -16532,7 +16540,7 @@ Slider Style One
   }
 }
 .axil-slide.slide-style-2.bg-image--3 {
-  background-image: url(../images/bg/bg-image-3.jpg);
+  background-image: url(../images/bg/manufacturing-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

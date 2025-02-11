@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <Layout>
             <Head>
-                <title>Contact || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>Contact || Gobind Coach</title>
             </Head>
 
             <Breadcrumb title="Contact" current="Contact"/>
@@ -21,7 +21,7 @@ const Contact = () => {
                             <div className="col-lg-6 col-md-12 col-xl-5 col-12">
                                 <div className="contact-form-wrapper">
                                     <div className="axil-contact-form contact-form-style-1">
-                                        <h3 className="title">Get a free Keystroke quote now</h3>
+                                        <h3 className="title">Get a free project quote now</h3>
                                         <ContactFormThree/>
                                     </div>
                                 </div>
@@ -40,12 +40,12 @@ const Contact = () => {
                                             <div className="content">
                                                 <h4 className="title">Phone</h4>
                                                 <p>
-                                                    Our customer care is open from Mon-Fri, 10:00 am to
+                                                    Our customer care is open from Mon-Fri, 9:00 am to
                                                     6:00 pm
                                                 </p>
                                                 <p>
-                                                    <a className="axil-link" href="tel:1234567890">
-                                                        (123) 456 7890
+                                                    <a className="axil-link" href="tel:9595000040">
+                                                        +91 9595 00 00 40
                                                     </a>
                                                 </p>
                                             </div>
@@ -70,9 +70,9 @@ const Contact = () => {
                                                 <p>
                                                     <a
                                                         className="axil-link"
-                                                        href="mailto:example@gmail.com"
+                                                        href="mailto:sales@gobindcoach.com"
                                                     >
-                                                        example@gmail.com
+                                                        sales@gobindcoach.com
                                                     </a>
                                                 </p>
                                             </div>
@@ -123,11 +123,11 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Virginia-HQ</h4>
+                                        <h4 className="title">Manufacturing Unit</h4>
                                         <p>
-                                            435 Pouros Locks <br/> United States
+                                            SH 43, Road, Near Reliance Petrol Pump, opp. Baba Gandha Singh Public School, Tapa, Barnala, Bhadaur, Punjab 148102 <br/> India
                                         </p>
-                                        <a className="axil-button btn-transparent" href="#">
+                                        <a className="axil-button btn-transparent" href="https://www.google.com/maps/place/GOBIND+Coach+Builders/@30.4537453,75.3430916,17z/data=!3m1!4b1!4m6!3m5!1s0x3910943a219a966f:0x45115b16cdba704a!8m2!3d30.4537407!4d75.3456665!16s%2Fg%2F11v5dbghr1?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D">
                                             <span className="button-text">View on Map</span>
                                             <span className="button-icon"></span>
                                         </a>
@@ -150,65 +150,11 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Nevada</h4>
+                                        <h4 className="title">Corporate Office</h4>
                                         <p>
-                                            46 Watsica Creek Suite 071 <br/> United States
+                                            SCO 106, 2nd Floor, Sector 86, S.A.S Nagar, Mohali 160055 <br/> India
                                         </p>
-                                        <a className="axil-button btn-transparent" href="#">
-                                            <span className="button-text">View on Map</span>
-                                            <span className="button-icon"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                                <div
-                                    className="axil-office-location mt--30"
-                                    data-aos="aos-fade-in-up"
-                                    data-aos-duration="1000"
-                                >
-                                    <div className="thumbnail">
-                                        <Image
-                                            width={300}
-                                            height={180}
-                                            src="/images/inner-image/contact/contact-01.jpg"
-                                            alt="Location Images"
-                                        />
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">Columbia</h4>
-                                        <p>
-                                            7140 Wehner Tunnel <br/> Washington, D.C
-                                        </p>
-                                        <a className="axil-button btn-transparent" href="#">
-                                            <span className="button-text">View on Map</span>
-                                            <span className="button-icon"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                                <div
-                                    className="axil-office-location mt--30"
-                                    data-aos="aos-fade-in-up"
-                                    data-aos-duration="1000"
-                                >
-                                    <div className="thumbnail">
-                                        <Image
-                                            width={300}
-                                            height={180}
-                                            src="/images/inner-image/contact/contact-01.jpg"
-                                            alt="Location Images"
-                                        />
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">New Mexico</h4>
-                                        <p>
-                                            10 Maggie Valleys , <br/> United States
-                                        </p>
-                                        <a className="axil-button btn-transparent" href="#">
+                                        <a className="axil-button btn-transparent" href="https://www.google.com/maps/place/GOBIND+Coach+Builders/@30.6678956,76.7002406,17z/data=!3m1!4b1!4m6!3m5!1s0x390febbeb0625ad5:0x30897ad52b71fefe!8m2!3d30.667891!4d76.7028155!16s%2Fg%2F11gvzbfm0l?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D ">
                                             <span className="button-text">View on Map</span>
                                             <span className="button-icon"></span>
                                         </a>

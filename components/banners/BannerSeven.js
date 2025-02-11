@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const BannerSeven = (
     {
-        title = "One of the fastest growing agency",
-        subtitle = "We design and develop web and mobile applications for our clients worldwide.",
-        thumbnailImageOne = "/images/slider/white-shape.png",
-        thumbnailImageTwo = "/images/slider/banner-about.svg",
+        title = "One of the fastest growing bus building company",
+        subtitle = "We design and manufacture buses for all business needs.",
+        thumbnailImageOne = "/images/slider/white-shape.JPG",
+        // thumbnailImageTwo = "/images/slider/banner-about.svg",
     }
 ) => {
     return (
@@ -32,13 +32,13 @@ const BannerSeven = (
                                     />
                                 </Tilt>
                                 <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} className="banner-paralax-image-2">
-                                    <Image
+                                    {/* <Image
                                         width={519}
                                         height={395}
                                         className="image-2 paralax-image"
                                         src={thumbnailImageTwo}
                                         alt="Slider images"
-                                    />
+                                    /> */}
                                 </Tilt>
                             </div>
                             <div className="shape-group">

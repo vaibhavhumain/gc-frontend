@@ -43,7 +43,7 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Discover",
+          "title": "Structure",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra04-color",
@@ -51,7 +51,7 @@
         },
         {
           "id": 2,
-          "title": "Prototype",
+          "title": "Panneling",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra05-color",
@@ -59,7 +59,7 @@
         },
         {
           "id": 3,
-          "title": "Test",
+          "title": "Interior Design",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra06-color",
@@ -67,7 +67,7 @@
         },
         {
           "id": 4,
-          "title": "Build",
+          "title": "Final Finishing",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra07-color",

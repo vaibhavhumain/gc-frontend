@@ -75,7 +75,7 @@ const Header = ({headerSetting = {}}) => {
         const closeSidenavOnClickOverlay = () => {
             const html = document.querySelector("html"),
                 body = document.querySelector("body"),
-                sideNav = document.querySelector(".side-nav");
+                sideNav = document.querySelector(".side-nav"); 
 
             body.addEventListener('click', function (e) {
                 if (e.target.tagName === 'BODY') {
@@ -100,7 +100,7 @@ const Header = ({headerSetting = {}}) => {
                         <div className="row align-items-center">
                             <div className={headerSettings.leftColumn}>
                                 <div className="logo">
-                                    <Link href="/home-01">
+                                    <Link href="/index">
                                         <a>
                                             <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
                                         </a>

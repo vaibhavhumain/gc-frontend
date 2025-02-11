@@ -1,12 +1,12 @@
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
-import {slugify} from '../../helpers/utilities';
+import { slugify } from '../../helpers/utilities';
 
-const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
+const PortfolioCard = ({ data, index, activeIndex, changeActive }) => {
     const item = {
-        hidden: {y: 20, opacity: 0},
+        hidden: { y: 20, opacity: 0 },
         visible: {
             y: 0,
             opacity: 1,
@@ -17,7 +17,7 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
         <motion.div
             variants={item}
             className={`portfolio portfolio_style--1 axil-control ${
-                activeIndex === index ? "active" : ""
+                activeIndex === index ? 'active' : ''
             }`}
             onMouseEnter={() => changeActive(index)}
         >
@@ -45,10 +45,13 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                             </Link>
                         </h4>
                         <span className="category">
-              {data.categories?.map((category, index) => {
-                  return category;
-              })}
-            </span>
+                            {data.categories?.map((category, index) => (
+                                <span key={index}>
+                                    {category.title}
+                                    {index < data.categories.length - 1 ? ', ' : ''}
+                                </span>
+                            ))}
+                        </span>
                     </div>
                 </div>
             </div>

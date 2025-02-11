@@ -6,7 +6,7 @@
       "height": "36",
       "src": "/images/counterup/shape-01.png"
     },
-    "amount": 15,
+    "amount": 30,
     "title": "Years of operation"
   },
   {
@@ -16,8 +16,8 @@
       "height": "28",
       "src": "/images/counterup/shape-02.png"
     },
-    "amount": 360,
-    "title": "Projects deliverd"
+    "amount": 10000,
+    "title": "Products deliverd"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "height": "36",
       "src": "/images/counterup/shape-04.png"
     },
-    "amount": 64,
+    "amount": 30,
     "title": "Years of operation"
   }
 ]

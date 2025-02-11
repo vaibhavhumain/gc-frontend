@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const BannerSix = (
     {
-        title = 'Best solutions for your business',
-        subtitle = 'A quick view of industry specific problems solved with design by the awesome team at Keystroke.',
+        title = 'Best buses for your business',
+        subtitle = 'A quick view of industry specific problems solved with design by the awesome team at Gobind Coach Builders.',
         bannerStyleClass = 'axil-breadcrumb-area breadcrumb-style-2 pt--170 pb--70 theme-gradient',
         bannerTitleClass = 'page-title mb--20',
         leftColumn = 'col-lg-5 order-2 order-lg-1 mt_md--30 mt_sm--30',
@@ -38,7 +38,7 @@ const BannerSix = (
                                             height={466}
                                             className="paralax-image"
                                             src={bannerImageOne}
-                                            alt="Keystoke Images"
+                                            alt="GC Images"
                                         />
                                     </Tilt>
                                 </div>
@@ -49,7 +49,7 @@ const BannerSix = (
                                             height={363}
                                             className="paralax-image"
                                             src={bannerImageTwo}
-                                            alt="Keystoke Images"
+                                            alt="GC Images"
                                         />
                                     </Tilt>
                                 </div>
