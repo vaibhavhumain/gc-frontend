@@ -62,11 +62,10 @@ const About = () => {
     };
 
     return (
-        <Layout>
+        (<Layout>
             <Head>
                 <title>About Us || Gobind Coach</title>
             </Head>
-
             <main className="page-wrapper">
                 <BannerSeven/>
 
@@ -102,9 +101,8 @@ const About = () => {
                                         </span>
                                         <h2 className="title">
                                             <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                                <a>
-                                                    Building buses for world changers{" "}
-                                                </a>
+                                                Building buses for world changers{" "}
+
                                             </Link>
                                         </h2>
                                         <p className="subtitle-2">
@@ -114,11 +112,13 @@ const About = () => {
                                             placerat orci lobortis. Maecenas ipsum neque, elementum id
                                             dignissim et, imperdiet vitae mauris.
                                         </p>
-                                        <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                            <a className="axil-button btn-large btn-transparent">
-                                                <span className="button-text">Read Case Study</span>
-                                                <span className="button-icon"/>
-                                            </a>
+                                        <Link
+                                            href={`/case-study/${slugify(CaseStudyData[0].title)}`}
+                                            className="axil-button btn-large btn-transparent">
+
+                                            <span className="button-text">Read Case Study</span>
+                                            <span className="button-icon"/>
+
                                         </Link>
                                     </div>
                                     <div className="axil-counterup-area d-flex flex-wrap separator-line-vertical">
@@ -148,7 +148,7 @@ const About = () => {
 
                 <WorkingProcess process={workingProcess}/>
             </main>
-        </Layout>
+        </Layout>)
     );
 };
 

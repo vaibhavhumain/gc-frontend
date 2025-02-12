@@ -7,20 +7,20 @@ import {slugify} from '../../helpers/utilities';
 const CaseStudyCard = ({column, data}) => {
 
     return (
-        <div className={column} data-aos="aos-fade-in-up" data-aos-duration="1000">
+        (<div className={column} data-aos="aos-fade-in-up" data-aos-duration="1000">
             <div className="axil-case-study">
                 <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
                     <div className="thumbnail">
                         <Link href={`/projects/${slugify(data.title)}`}>
-                            <a>
-                                <Image
-                                    width={data.thumbnail.width}
-                                    height={data.thumbnail.height}
-                                    className="w-100 paralax-image"
-                                    src={data.thumbnail.src}
-                                    alt="Axil Case Study Images"
-                                />
-                            </a>
+
+                            <Image
+                                width={data.thumbnail.width}
+                                height={data.thumbnail.height}
+                                className="w-100 paralax-image"
+                                src={data.thumbnail.src}
+                                alt="Axil Case Study Images"
+                            />
+
                         </Link>
                     </div>
                 </Tilt>
@@ -35,15 +35,15 @@ const CaseStudyCard = ({column, data}) => {
                         </span>
                         <h4 className="title">
                             <Link href={`/projects/${slugify(data.title)}`}>
-                                <a>
-                                    <SplitText>{data.title}</SplitText>
-                                </a>
+
+                                <SplitText>{data.title}</SplitText>
+
                             </Link>
                         </h4>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

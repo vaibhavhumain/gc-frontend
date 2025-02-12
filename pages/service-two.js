@@ -38,11 +38,10 @@ const ServiceTwo = () => {
     }, []);
 
     return (
-        <Layout>
+        (<Layout>
             <Head>
                 <title>Services || Gobind Coach</title>
             </Head>
-
             <main className="page-wrapper">
                 <BannerSix/>
 
@@ -116,7 +115,8 @@ const ServiceTwo = () => {
                                         <div className="content">
                                             <h4 className="title">
                                                 <Link
-                                                    href={`/services/${camelCaseToDashed(service.category)}/${service.slug}`}>
+                                                    href={`/services/${camelCaseToDashed(service.category)}/${service.slug}`}
+                                                    legacyBehavior>
                                                     {`${index + 1}. ${service.title}`}
                                                 </Link>
                                             </h4>
@@ -131,7 +131,7 @@ const ServiceTwo = () => {
 
                 <CallToActionOne/>
             </main>
-        </Layout>
+        </Layout>)
     );
 };
 

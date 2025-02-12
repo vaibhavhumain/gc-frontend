@@ -7,14 +7,14 @@ const Breadcrumb = ({
   current = "Blog",
 }) => {
   return (
-    <div className="axil-breadcrumb-area breadcrumb-style-default pt--170 pb--70 theme-gradient">
+    (<div className="axil-breadcrumb-area breadcrumb-style-default pt--170 pb--70 theme-gradient">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="inner">
               <ul className="axil-breadcrumb liststyle d-flex">
                 <li className="axil-breadcrumb-item">
-                  <Link href={rootUrl}>{root}</Link>
+                  <Link href={rootUrl} legacyBehavior>{root}</Link>
                 </li>
                 <li className="axil-breadcrumb-item text-capitalize active" aria-current="page">
                   {current}
@@ -30,7 +30,7 @@ const Breadcrumb = ({
         <i className="shape shape-2 icon icon-bcm-02"/>
         <i className="shape shape-3 icon icon-bcm-03"/>
       </div>
-    </div>
+    </div>)
   );
 };
 

@@ -9,7 +9,7 @@ import {slugify} from '../../helpers/utilities';
 
 const CaseStudyThree = () => {
     return (
-        <div className="axil-case-study-area ax-section-gap bg-color-white">
+        (<div className="axil-case-study-area ax-section-gap bg-color-white">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -40,11 +40,11 @@ const CaseStudyThree = () => {
                                     </span>
                                     <h4 className="title">
                                         <Link href={`/projects/${slugify(CaseStudyData[6].title)}`}>
-                                            <a>
-                                                <SplitText>
-                                                    {CaseStudyData[6].title}
-                                                </SplitText>
-                                            </a>
+
+                                            <SplitText>
+                                                {CaseStudyData[6].title}
+                                            </SplitText>
+
                                         </Link>
                                     </h4>
                                 </div>
@@ -72,7 +72,7 @@ const CaseStudyThree = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

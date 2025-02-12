@@ -25,7 +25,7 @@ const SliderOne = () => {
     };
 
     return (
-        <div className="axil-featured-area ax-section-gap bg-color-lightest">
+        (<div className="axil-featured-area ax-section-gap bg-color-lightest">
             <div
                 className="container axil-featured-activation axil-carousel"
                 ref={ref}
@@ -34,7 +34,7 @@ const SliderOne = () => {
                     <Slider {...settings}>
                         {SliderTwoData.map((item, index) => {
                             return (
-                                <div
+                                (<div
                                     className="row d-flex flex-wrap axil-featured row--0"
                                     key={`slider-item-${index}`}
                                 >
@@ -57,15 +57,17 @@ const SliderOne = () => {
                                                 </span>
                                                 <h2 className="title">
                                                     <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                                        <a>{item.title}</a>
+                                                        {item.title}
                                                     </Link>
                                                 </h2>
                                                 <p className="subtitle-2">{item.description}</p>
-                                                <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                                    <a className="axil-button btn-large btn-transparent">
-                                                        <span className="button-text">{item.buttonText}</span>
-                                                        <span className="button-icon"/>
-                                                    </a>
+                                                <Link
+                                                    href={`/case-study/${slugify(CaseStudyData[0].title)}`}
+                                                    className="axil-button btn-large btn-transparent">
+
+                                                    <span className="button-text">{item.buttonText}</span>
+                                                    <span className="button-icon"/>
+
                                                 </Link>
                                             </div>
                                             <div
@@ -95,13 +97,13 @@ const SliderOne = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>)
                             );
                         })}
                     </Slider>
                 )}
             </div>
-        </div>
+        </div>)
     );
 };
 

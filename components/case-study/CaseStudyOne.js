@@ -5,7 +5,7 @@ import CaseStudyCard from './CaseStudyCard';
 
 const CaseStudyOne = () => {
     return (
-        <div
+        (<div
             className="axil-case-study-area ax-section-gap bg-color-lightest"
             id="sectionBottom"
         >
@@ -36,17 +36,19 @@ const CaseStudyOne = () => {
                             data-aos="aos-fade-in-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio">
-                                <a className="axil-button btn-large btn-xxl btn-transparent">
-                                    <span className="button-text">Discover More Projects</span>
-                                    <span className="button-icon"/>
-                                </a>
+                            <Link
+                                href="/portfolio"
+                                className="axil-button btn-large btn-xxl btn-transparent">
+
+                                <span className="button-text">Discover More Projects</span>
+                                <span className="button-icon"/>
+
                             </Link>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

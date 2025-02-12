@@ -3,7 +3,7 @@ import ContactFormOne from '../forms/ContactFormOne';
 
 const BannerFive = () => {
     return (
-        <div className="axil-slider-area axil-slide-activation position-relative">
+        (<div className="axil-slider-area axil-slide-activation position-relative">
             <div className="axil-slide slide-style-5 theme-gradient-8 d-flex align-items-center">
                 <div className="container">
                     <div className="row align-items-center w-100">
@@ -15,14 +15,16 @@ const BannerFive = () => {
                                         data-aos-duration="1000">
                                         Technology <br/> & design studio
                                     </h1>
-                                    <Link href="/portfolio">
-                                        <a className="axil-button btn-large btn-transparent"
-                                           data-aos="aos-fade-in-up"
-                                           data-aos-duration="1000"
-                                           data-aos-delay="300">
-                                            <span className="button-text">View Showcase</span>
-                                            <span className="button-icon"/>
-                                        </a>
+                                    <Link
+                                        href="/portfolio"
+                                        className="axil-button btn-large btn-transparent"
+                                        data-aos="aos-fade-in-up"
+                                        data-aos-duration="1000"
+                                        data-aos-delay="300">
+
+                                        <span className="button-text">View Showcase</span>
+                                        <span className="button-icon"/>
+
                                     </Link>
                                 </div>
                             </div>
@@ -43,7 +45,7 @@ const BannerFive = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

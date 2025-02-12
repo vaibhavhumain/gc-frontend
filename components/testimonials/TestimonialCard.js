@@ -12,7 +12,7 @@ const TestimonialCard = (
     }
 ) => {
     return (
-        <div className={column} data-aos="aos-fade-in-up">
+        (<div className={column} data-aos="aos-fade-in-up">
             <div
                 className={`${testimonialClass} ${
                     activeIndex === index ? "active" : ""
@@ -36,15 +36,15 @@ const TestimonialCard = (
                     </div>
                     <div className="description">
                         <p className="subtitle-3">{data.description}</p>
-                        <Link href="#">
-                            <a className="axil-link-button">
+                        <Link href="#" className="axil-link-button">
+                            
                                 Read Project Case Study
-                            </a>
+                            
                         </Link>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

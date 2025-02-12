@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const BannerTwo = () => {
     return (
-        <div className="axil-slider-area axil-slide-activation">
+        (<div className="axil-slider-area axil-slide-activation">
             <div className="axil-slide banner-technology bg_image theme-gradient"
                  style={{backgroundImage: "url(images/bg/bg-image-3.jpg)"}}>
                 <div className="container">
@@ -16,22 +16,23 @@ const BannerTwo = () => {
                                 >
                                     We will build buses for your business.
                                 </h1>
-                                <Link href="/portfolio">
-                                    <a className="axil-button btn-large btn-transparent"
-                                       data-aos="aos-fade-in-up"
-                                       data-aos-duration="1000"
-                                       data-aos-delay="200"
-                                    >
-                                        <span className="button-text">View Showcase</span>
-                                        <span className="button-icon"/>
-                                    </a>
+                                <Link
+                                    href="/portfolio"
+                                    className="axil-button btn-large btn-transparent"
+                                    data-aos="aos-fade-in-up"
+                                    data-aos-duration="1000"
+                                    data-aos-delay="200">
+
+                                    <span className="button-text">View Showcase</span>
+                                    <span className="button-icon"/>
+
                                 </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

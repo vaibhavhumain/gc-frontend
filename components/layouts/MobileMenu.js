@@ -79,7 +79,7 @@ const MobileMenu = () => {
     }, []);
 
     return (
-        <div
+        (<div
             className="popup-mobile-manu"
             onClick={(e) => {
                 if (e.target == document.querySelector(".popup-mobile-manu")) {
@@ -91,14 +91,14 @@ const MobileMenu = () => {
                 <div className="mobileheader">
                     <div className="logo">
                         <Link href="/">
-                            <a>
-                                <Image
-                                    width={220}
-                                    height={100}
-                                    src="/images/logo/GC logo.png"
-                                    alt="Logo images"
-                                />
-                            </a>
+
+                            <Image
+                                width={220}
+                                height={100}
+                                src="/images/logo/GC logo.png"
+                                alt="Logo images"
+                            />
+
                         </Link>
                     </div>
                     <button
@@ -112,7 +112,7 @@ const MobileMenu = () => {
                     <MainMenu/>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

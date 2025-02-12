@@ -88,151 +88,146 @@ const Header = ({headerSetting = {}}) => {
         closeSidenavOnClickOverlay();
     }, []);
 
-    return (
-        <>
-            <ThemeSwitcher/>
+    return (<>
+        <ThemeSwitcher/>
+        <header
+            className={`ax-header haeder-default light-logo-version header-transparent axil-header-sticky`}
+        >
+            <div className="header-wrapper">
+                <div className={headerContainerClass()}>
+                    <div className="row align-items-center">
+                        <div className={headerSettings.leftColumn}>
+                            <div className="logo">
+                                <Link href="/index">
 
-            <header
-                className={`ax-header haeder-default light-logo-version header-transparent axil-header-sticky`}
-            >
-                <div className="header-wrapper">
-                    <div className={headerContainerClass()}>
-                        <div className="row align-items-center">
-                            <div className={headerSettings.leftColumn}>
-                                <div className="logo">
-                                    <Link href="/index">
-                                        <a>
-                                            <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
-                                        </a>
-                                    </Link>
+                                    <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
+
+                                </Link>
+                            </div>
+                        </div>
+                        {headerSettings.style === "two" && (
+                            <div className="col-lg-7 col-xl-6 d-none d-lg-block">
+                                <div className="mainmenu-wrapepr justify-content-center">
+                                    <nav className="mainmenu-nav d-none d-lg-block">
+                                        <MainMenu/>
+                                    </nav>
                                 </div>
                             </div>
-                            {headerSettings.style === "two" && (
-                                <div className="col-lg-7 col-xl-6 d-none d-lg-block">
-                                    <div className="mainmenu-wrapepr justify-content-center">
-                                        <nav className="mainmenu-nav d-none d-lg-block">
-                                            <MainMenu/>
-                                        </nav>
-                                    </div>
-                                </div>
-                            )}
-                            <div className={headerSettings.rightColumn}>
-                                <div
-                                    className={`mainmenu-wrapepr ${
-                                        headerSettings.style === "two" ? "justify-content-end" : ""
-                                    }`}
-                                >
-                                    {(headerSettings.style === "one" ||
-                                        headerSettings.style === "four") && (
-                                        <nav className="mainmenu-nav d-none d-lg-block">
-                                            <MainMenu/>
-                                        </nav>
+                        )}
+                        <div className={headerSettings.rightColumn}>
+                            <div
+                                className={`mainmenu-wrapepr ${
+                                    headerSettings.style === "two" ? "justify-content-end" : ""
+                                }`}
+                            >
+                                {(headerSettings.style === "one" ||
+                                    headerSettings.style === "four") && (
+                                    <nav className="mainmenu-nav d-none d-lg-block">
+                                        <MainMenu/>
+                                    </nav>
+                                )}
+
+                                <div className="axil-header-extra d-flex align-items-center">
+                                    {(headerSettings.style !== "three" && headerSettings.style !== "four") && (
+                                        <div className="ax-search-area ml--40 ml_sm--10">
+                                            <button
+                                                className="p-0 border-0 search-trigger"
+                                                onClick={toggleSearch}
+                                            >
+                                                <i className="fas fa-search"></i>
+                                            </button>
+                                        </div>
                                     )}
 
-                                    <div className="axil-header-extra d-flex align-items-center">
-                                        {(headerSettings.style !== "three" && headerSettings.style !== "four") && (
-                                            <div className="ax-search-area ml--40 ml_sm--10">
-                                                <button
-                                                    className="p-0 border-0 search-trigger"
-                                                    onClick={toggleSearch}
-                                                >
-                                                    <i className="fas fa-search"></i>
-                                                </button>
-                                            </div>
-                                        )}
+                                    {(headerSettings.style !== "three" && headerSettings.style !== "four") && (
+                                        <div className="ax-hamburger ml--40 ml_sm--10 d-none d-lg-block">
+                                            <button
+                                                className="axil-menuToggle ax-hamburger-trigger"
+                                                onClick={toggleSideNav}
+                                            >
+                                                <span/>
+                                                <span/>
+                                                <span/>
+                                            </button>
+                                        </div>
+                                    )}
 
-                                        {(headerSettings.style !== "three" && headerSettings.style !== "four") && (
-                                            <div className="ax-hamburger ml--40 ml_sm--10 d-none d-lg-block">
-                                                <button
-                                                    className="axil-menuToggle ax-hamburger-trigger"
-                                                    onClick={toggleSideNav}
-                                                >
-                                                    <span/>
-                                                    <span/>
-                                                    <span/>
-                                                </button>
-                                            </div>
-                                        )}
-
-                                        {headerSettings.style === "three" && (
-                                            <div className="d-none d-md-block">
-                                                <ul className="axil-social-icons d-flex liststyle align-items-center">
-                                                    <li>
-                                                        <a href="#">
-                                                            <i className="fab fa-facebook-f"/>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i className="fab fa-twitter"/>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i className="fab fa-pinterest-p"/>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i className="fab fa-linkedin-in"/>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        )}
-
-                                        {headerSettings.style === "four" && (
-                                            <div className="ax-header-button ml--40 ml_lg--10 d-none d-sm-block">
-                                                <Link href="/contact">
-                                                    <a className="axil-button btn-solid btn-extra02-color">
-                                                        <span className="button-text">Let&lsquo;s Talk</span>
-                                                        <span className="button-icon"/>
+                                    {headerSettings.style === "three" && (
+                                        <div className="d-none d-md-block">
+                                            <ul className="axil-social-icons d-flex liststyle align-items-center">
+                                                <li>
+                                                    <a href="#">
+                                                        <i className="fab fa-facebook-f"/>
                                                     </a>
-                                                </Link>
-                                            </div>
-                                        )}
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i className="fab fa-twitter"/>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i className="fab fa-pinterest-p"/>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i className="fab fa-linkedin-in"/>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    )}
 
+                                    {headerSettings.style === "four" && (
+                                        <div className="ax-header-button ml--40 ml_lg--10 d-none d-sm-block">
+                                            <Link href="/contact" className="axil-button btn-solid btn-extra02-color">
+
+                                                <span className="button-text">Let&lsquo;s Talk</span>
+                                                <span className="button-icon"/>
+
+                                            </Link>
+                                        </div>
+                                    )}
+
+                                    <div
+                                        className={`${
+                                            headerSettings.style === "three"
+                                                ? "ax-hamburger bg-theme-color ml--40"
+                                                : "ax-menubar popup-navigation-activation d-block d-lg-none ml_sm--20 ml_md--20"
+                                        }`}
+                                    >
                                         <div
                                             className={`${
                                                 headerSettings.style === "three"
-                                                    ? "ax-hamburger bg-theme-color ml--40"
-                                                    : "ax-menubar popup-navigation-activation d-block d-lg-none ml_sm--20 ml_md--20"
+                                                    ? "axil-menuToggle popup-navigation-activation"
+                                                    : ""
                                             }`}
+                                            onClick={toggleMobileMenu}
                                         >
-                                            <div
-                                                className={`${
-                                                    headerSettings.style === "three"
-                                                        ? "axil-menuToggle popup-navigation-activation"
-                                                        : ""
-                                                }`}
-                                                onClick={toggleMobileMenu}
-                                            >
-                                                {headerSettings.style === "three" ? (
-                                                    <>
-                                                        <span/>
-                                                        <span/>
-                                                        <span/>
-                                                    </>
-                                                ) : (
-                                                    <i/>
-                                                )}
-                                            </div>
+                                            {headerSettings.style === "three" ? (
+                                                <>
+                                                    <span/>
+                                                    <span/>
+                                                    <span/>
+                                                </>
+                                            ) : (
+                                                <i/>
+                                            )}
                                         </div>
-
-                                        <HeaderSearch toggleSearch={toggleSearch}/>
                                     </div>
+
+                                    <HeaderSearch toggleSearch={toggleSearch}/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
-
-            <MobileMenu/>
-
-            <SideNav toggleSidenav={toggleSideNav}/>
-        </>
-    );
+            </div>
+        </header>
+        <MobileMenu/>
+        <SideNav toggleSidenav={toggleSideNav}/>
+    </>);
 };
 
 export default Header;

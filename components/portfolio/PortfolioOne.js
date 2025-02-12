@@ -32,7 +32,7 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
     }, []);
 
     return (
-        <div className={`axil-portfolio-area ax-section-gap ${bgColor}`}>
+        (<div className={`axil-portfolio-area ax-section-gap ${bgColor}`}>
             <div className="container axil-masonary-wrapper">
                 <div className="row align-items-end">
                     <div className="col-lg-5 col-md-12">
@@ -72,17 +72,19 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
                             ))}
                         </motion.div>
                         <div className="view-all-portfolio-button mt--60 text-center">
-                            <Link href="/portfolio">
-                                <a className="axil-button btn-large btn-transparent btn-xxl">
-                                    <span className="button-text">Discover More Projects</span>
-                                    <span className="button-icon"/>
-                                </a>
+                            <Link
+                                href="/portfolio"
+                                className="axil-button btn-large btn-transparent btn-xxl">
+
+                                <span className="button-text">Discover More Projects</span>
+                                <span className="button-icon"/>
+
                             </Link>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

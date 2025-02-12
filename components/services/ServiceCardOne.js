@@ -24,7 +24,7 @@ const ServiceCardOne = (
     }, [alignment]);
 
     return (
-        <div className={column} data-aos="aos-fade-in-up">
+        (<div className={column} data-aos="aos-fade-in-up">
             <Tilt tiltMaxAngleX={7} tiltMaxAngleY={7}>
                 <div
                     className={`axil-service axil-control paralax-image ${serviceClass} ${textAlignment} ${
@@ -56,7 +56,8 @@ const ServiceCardOne = (
                         <div className="content">
                             <h4 className="title">
                                 <Link
-                                    href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>
+                                    href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}
+                                    legacyBehavior>{data.title}</Link>
                             </h4>
                             <p>{data.description}</p>
                             <Link
@@ -64,15 +65,15 @@ const ServiceCardOne = (
                                 data-hover="Learn More"
                                 href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}
                             >
-                                <a className="axil-button">
+                                
                                     Learn More
-                                </a>
+                                
                             </Link>
                         </div>
                     </div>
                 </div>
             </Tilt>
-        </div>
+        </div>)
     );
 };
 

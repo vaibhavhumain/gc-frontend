@@ -30,7 +30,7 @@ const ServiceThree = () => {
     }, []);
 
     return (
-        <div className="axil-service-area ax-section-gap bg-color-lightest">
+        (<div className="axil-service-area ax-section-gap bg-color-lightest">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -63,7 +63,7 @@ const ServiceThree = () => {
                                     <h4 className="title">
                                         <Link
                                             href={`/services/${camelCaseToDashed(service.category)}/${service.slug}`}
-                                        >
+                                            legacyBehavior>
                                             {service.title}
                                         </Link>
                                     </h4>
@@ -74,7 +74,7 @@ const ServiceThree = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

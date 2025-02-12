@@ -18,7 +18,7 @@ const Footer = ({footerSetting = {}}) => {
     }, [footerSetting]);
 
     return (
-        <footer
+        (<footer
             className={`axil-footer footer-default ${
                 footerSettings.showCopyrightOnly ? "bg-color-lightest" : ""
             } ${
@@ -66,11 +66,13 @@ const Footer = ({footerSetting = {}}) => {
                                                     </h2>
                                                 </div>
                                                 <div className="button-wrapper">
-                                                    <Link href="/contact">
-                                                        <a className="axil-button btn-large btn-solid bgextra07-color">
-                                                            <span className="button-text">Let&rsquo;s Talk</span>
-                                                            <span className="button-icon"/>
-                                                        </a>
+                                                    <Link
+                                                        href="/contact"
+                                                        className="axil-button btn-large btn-solid bgextra07-color">
+
+                                                        <span className="button-text">Let&rsquo;s Talk</span>
+                                                        <span className="button-icon"/>
+
                                                     </Link>
                                                 </div>
                                             </div>
@@ -118,9 +120,9 @@ const Footer = ({footerSetting = {}}) => {
                                                 <>
                                                     <div className="logo">
                                                         <Link href="/home-01">
-                                                            <a>
-                                                                <Logo variant="two" fillTextColor="#fff"/>
-                                                            </a>
+
+                                                            <Logo variant="two" fillTextColor="#fff"/>
+
                                                         </Link>
                                                     </div>
                                                     <div className="axil-ft-address">
@@ -163,7 +165,7 @@ const Footer = ({footerSetting = {}}) => {
                                                 >
                                                     {FooterMenu.services?.map((menuItem, index) => (
                                                         <li key={`footer-service-${index}`}>
-                                                            <Link href={menuItem.url}>{menuItem.title}</Link>
+                                                            <Link href={menuItem.url} legacyBehavior>{menuItem.title}</Link>
                                                         </li>
                                                     ))}
                                                 </ul>
@@ -190,7 +192,7 @@ const Footer = ({footerSetting = {}}) => {
                                                 >
                                                     {FooterMenu.resources?.map((menuItem, index) => (
                                                         <li key={`footer-resource-${index}`}>
-                                                            <Link href={menuItem.url}>{menuItem.title}</Link>
+                                                            <Link href={menuItem.url} legacyBehavior>{menuItem.title}</Link>
                                                         </li>
                                                     ))}
                                                 </ul>
@@ -221,7 +223,7 @@ const Footer = ({footerSetting = {}}) => {
                                                 >
                                                     {FooterMenu.support?.map((menuItem, index) => (
                                                         <li key={`footer-support-${index}`}>
-                                                            <Link href={menuItem.url}>{menuItem.title}</Link>
+                                                            <Link href={menuItem.url} legacyBehavior>{menuItem.title}</Link>
                                                         </li>
                                                     ))}
                                                 </ul>
@@ -264,7 +266,7 @@ const Footer = ({footerSetting = {}}) => {
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>)
     );
 };
 

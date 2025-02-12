@@ -21,7 +21,7 @@ const BannerThree = () => {
     }, []);
 
     return (
-        <div className="axil-slider-area portfolio-slider axil-slide-activation fix">
+        (<div className="axil-slider-area portfolio-slider axil-slide-activation fix">
             <div className="axil-slide slide-style-3 theme-gradient-3 slider-fixed-height d-flex align-items-center">
                 <div className="container">
                     <div className="row align-items-center">
@@ -49,10 +49,10 @@ const BannerThree = () => {
                                         <span className="button-text">Latest Work On Dribbble</span>
                                         <span className="button-icon"/>
                                     </a>
-                                    <Link href="/about">
-                                        <a className="axil-button axil-link-button">
+                                    <Link href="/about" className="axil-button axil-link-button">
+                                        
                                             About Me
-                                        </a>
+                                        
                                     </Link>
                                 </div>
                                 <div className="scroll-down_btn">
@@ -68,7 +68,6 @@ const BannerThree = () => {
                     <div className="design-text marque-images"/>
                 </div>
             </div>
-
             <div className="thumbnail">
                 <div className="light-image">
                     <Image
@@ -88,7 +87,7 @@ const BannerThree = () => {
                     />
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

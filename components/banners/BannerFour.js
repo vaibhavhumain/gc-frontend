@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const BannerFour = () => {
     return (
-        <div className="axil-slider-area axil-slide-activation">
+        (<div className="axil-slider-area axil-slide-activation">
             <div className="axil-slide slide-style-4 theme-gradient-4 slider-fixed-height d-flex align-items-center">
                 <div className="container pt--80 pt_sm--40 pt_md--40">
                     <div className="row align-items-center">
@@ -26,11 +26,13 @@ const BannerFour = () => {
                                      data-aos="aos-fade-in-up"
                                      data-aos-duration="1000"
                                      data-aos-delay="400">
-                                    <Link href="/portfolio">
-                                        <a className="axil-button btn-large btn-solid btn-extra07-color">
-                                            <span className="button-text">See Our Projects</span>
-                                            <span className="button-icon"/>
-                                        </a>
+                                    <Link
+                                        href="/portfolio"
+                                        className="axil-button btn-large btn-solid btn-extra07-color">
+
+                                        <span className="button-text">See Our Projects</span>
+                                        <span className="button-icon"/>
+
                                     </Link>
                                 </div>
                             </div>
@@ -88,7 +90,7 @@ const BannerFour = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

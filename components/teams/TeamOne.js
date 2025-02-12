@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const TeamOne = () => {
     return (
-        <div className="axil-team-area shape-position ax-section-gap bg-color-white">
+        (<div className="axil-team-area shape-position ax-section-gap bg-color-white">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-xl-6">
@@ -19,9 +19,9 @@ const TeamOne = () => {
                             </div>
                             <div className="total-team-button">
                                 <Link href="/team">
-                                    <a>
-                                        <span>20+</span>
-                                    </a>
+
+                                    <span>20+</span>
+
                                 </Link>
                             </div>
                         </div>
@@ -39,11 +39,11 @@ const TeamOne = () => {
                                     alignment="left"
                                 />
                                 <div className="axil-button-group mt--40">
-                                    <Link href="/team">
-                                        <a className="axil-button btn-large btn-transparent">
-                                            <span className="button-text">Our Team</span>
-                                            <span className="button-icon"></span>
-                                        </a>
+                                    <Link href="/team" className="axil-button btn-large btn-transparent">
+
+                                        <span className="button-text">Our Team</span>
+                                        <span className="button-icon"></span>
+
                                     </Link>
                                     <a className="axil-button axil-link-button" href="#">
                                         Careers
@@ -65,7 +65,7 @@ const TeamOne = () => {
                     <i className="icon icon-shape-14"></i>
                 </div>
             </div>
-        </div>
+        </div>)
     );
 };
 

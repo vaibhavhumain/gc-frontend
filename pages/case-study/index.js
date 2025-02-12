@@ -15,13 +15,12 @@ const CaseStudy = () => {
     const [inView, setInView] = useState(false);
 
     return (
-        <Layout>
+        (<Layout>
             <Head>
                 <title>
                     Case Study || Keystroke Creative Agency Bootstrap 5 Template
                 </title>
             </Head>
-
             <main className="page-wrapper">
                 <BannerSeven
                     title="Case study"
@@ -44,18 +43,18 @@ const CaseStudy = () => {
                                 >
                                     <div className="thumbnail">
                                         <Link href={`/case-study/${slugify(caseStudy.title)}`}>
-                                            <a>
-                                                <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
-                                                    <Image
-                                                        width={661}
-                                                        height={668}
-                                                        className="image w-100 paralax-image"
-                                                        src={caseStudy.image}
-                                                        alt="Featured Images"
-                                                        priority
-                                                    />
-                                                </Tilt>
-                                            </a>
+
+                                            <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
+                                                <Image
+                                                    width={661}
+                                                    height={668}
+                                                    className="image w-100 paralax-image"
+                                                    src={caseStudy.image}
+                                                    alt="Featured Images"
+                                                    priority
+                                                />
+                                            </Tilt>
+
                                         </Link>
                                     </div>
                                 </div>
@@ -70,16 +69,18 @@ const CaseStudy = () => {
                                               {caseStudy.subtitle}
                                             </span>
                                             <h2 className="title">
-                                                <Link href={`/case-study/${slugify(caseStudy.title)}`}>
+                                                <Link href={`/case-study/${slugify(caseStudy.title)}`} legacyBehavior>
                                                     {caseStudy.title}
                                                 </Link>
                                             </h2>
                                             <p className="subtitle-2">{caseStudy.description}</p>
-                                            <Link href={`/case-study/${slugify(caseStudy.title)}`}>
-                                                <a className="axil-button btn-large btn-transparent">
-                                                    <span className="button-text">Read Case Study</span>
-                                                    <span className="button-icon"/>
-                                                </a>
+                                            <Link
+                                                href={`/case-study/${slugify(caseStudy.title)}`}
+                                                className="axil-button btn-large btn-transparent">
+
+                                                <span className="button-text">Read Case Study</span>
+                                                <span className="button-icon"/>
+
                                             </Link>
                                         </div>
                                         <div className="axil-counterup-area d-flex flex-wrap separator-line-vertical">
@@ -110,7 +111,7 @@ const CaseStudy = () => {
 
                 <CallToActionOne/>
             </main>
-        </Layout>
+        </Layout>)
     );
 };
 

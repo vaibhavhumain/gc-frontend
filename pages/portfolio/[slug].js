@@ -38,13 +38,12 @@ const PortfolioDetails = ({portfolio}) => {
     }, []);
 
     return (
-        <Layout>
+        (<Layout>
             <Head>
                 <title>
                     {portfolio.title} || Gobind Coach
                 </title>
             </Head>
-
             <main className="page-wrapper">
                 <Breadcrumb
                     title="Portfolio Details"
@@ -73,11 +72,11 @@ const PortfolioDetails = ({portfolio}) => {
                                                 __html: portfolio.description,
                                             }}
                                         />
-                                        <Link href="#">
-                                            <a className="axil-button btn-large btn-transparent">
-                                                <span className="button-text">Launch The Site </span>
-                                                <span className="button-icon"/>
-                                            </a>
+                                        <Link href="#" className="axil-button btn-large btn-transparent">
+
+                                            <span className="button-text">Launch The Site </span>
+                                            <span className="button-icon"/>
+
                                         </Link>
                                     </div>
                                 </div>
@@ -220,7 +219,7 @@ const PortfolioDetails = ({portfolio}) => {
                     <VideoPlayer url={portfolio.videoUrl}/>
                 )}
             </main>
-        </Layout>
+        </Layout>)
     );
 };
 
