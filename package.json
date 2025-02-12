@@ -32,7 +32,6 @@
     "react-player": "^2.10.1",
     "react-slick": "^0.29.0",
     "sass": "^1.53.0",
-    "sharp": "^0.31.1",
     "slick-carousel": "^1.8.1",
     "tailwind": "^4.0.0"
   },
