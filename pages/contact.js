@@ -3,7 +3,7 @@ import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import SectionTitle from "../components/common/SectionTitle";
 import ContactFormThree from "../components/forms/ContactFormThree";
 import Layout from "../components/layouts/Layout";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Contact = () => {
     return (

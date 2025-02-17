@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import {useEffect, useState} from 'react';
 import Tilt from 'react-parallax-tilt';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';

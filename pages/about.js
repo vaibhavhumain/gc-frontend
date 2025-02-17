@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import CountUp from 'react-countup';
 import {useInView} from 'react-intersection-observer';
 import BannerSeven from '../components/banners/BannerSeven';

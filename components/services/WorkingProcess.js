@@ -1,6 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import SectionTitle from "../common/SectionTitle";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const WorkingProcess = ({process}) => {
     return (

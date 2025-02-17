@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import {useEffect, useState} from 'react';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import VideoPlayer from '../../components/common/VideoPlayer';

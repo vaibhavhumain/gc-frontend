@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
@@ -9,7 +9,7 @@ const BrandTwo = () => {
         {
             "id": 1,
             "image": {
-                "src": "/images/brand/brand-01.png",
+                "src": "/images/brand/brand-11.png",
                 "width": 166,
                 "height": 60
             }
@@ -17,7 +17,7 @@ const BrandTwo = () => {
         {
             "id": 2,
             "image": {
-                "src": "/images/brand/brand-02.png",
+                "src": "/images/brand/brand-12.png",
                 "width": 88,
                 "height": 88
             }
@@ -25,7 +25,7 @@ const BrandTwo = () => {
         {
             "id": 3,
             "image": {
-                "src": "/images/brand/brand-03.png",
+                "src": "/images/brand/brand-08.png",
                 "width": 120,
                 "height": 80
             }
@@ -33,7 +33,7 @@ const BrandTwo = () => {
         {
             "id": 4,
             "image": {
-                "src": "/images/brand/brand-04.png",
+                "src": "/images/brand/brand-07.png",
                 "width": 128,
                 "height": 48
             }
@@ -49,11 +49,12 @@ const BrandTwo = () => {
         {
             "id": 6,
             "image": {
-                "src": "/images/brand/brand-01.png",
+                "src": "/images/brand/brand-09.png",
                 "width": 312,
                 "height": 64
             }
         }
+
     ]
 
     let settings = {

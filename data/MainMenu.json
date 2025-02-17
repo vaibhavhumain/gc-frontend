@@ -36,7 +36,7 @@
   {
     "id": 4,
     "title": "Blog",
-    "url": "#",
+    "url": "/blog",
     "hasChildren": false,
     "clildrens": [
       { "id": 1, "title": "Blog List", "url": "/blog" },

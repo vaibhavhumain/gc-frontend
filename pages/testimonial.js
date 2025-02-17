@@ -4,7 +4,7 @@ import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import Layout from "../components/layouts/Layout";
 import TestimonialCard from "../components/testimonials/TestimonialCard";
 import CustomerReviewsData from "../data/CustomerReviews.json";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Testimonial = () => {
     const [activeTestimonial, setActiveTestimonial] = useState(0);

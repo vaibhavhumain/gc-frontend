@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Tilt from 'react-parallax-tilt';
 import Layout from '../../components/layouts/Layout';
 import TeamData from '../../data/Team.json';

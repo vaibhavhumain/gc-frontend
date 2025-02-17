@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/Layout';
 import TeamMember from '../../components/teams/TeamMember';
 import TeamData from '../../data/Team.json';
 import {flatDeep} from '../../helpers/utilities';
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Team = () => {
     const [isWindow, setIsWindow] = useState(false);

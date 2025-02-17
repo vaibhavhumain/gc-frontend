@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import CountUp from 'react-countup';
 import {useInView} from 'react-intersection-observer';
 import Slider from 'react-slick';

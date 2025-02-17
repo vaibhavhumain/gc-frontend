@@ -4,7 +4,7 @@ const BannerTwo = () => {
     return (
         (<div className="axil-slider-area axil-slide-activation">
             <div className="axil-slide banner-technology bg_image theme-gradient"
-                 style={{backgroundImage: "url(images/bg/bg-image-3.jpg)"}}>
+                 style={{backgroundImage: "url(images/bg/Hero_image.jpg)"}}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-12 col-12">
