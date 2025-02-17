@@ -15996,7 +15996,7 @@ Axil Case Study
   transform: scale(1, 1);
 }
 .axil-pricing-table.active a.axil-button span.button-icon {
-  border-color: transparent transparent transparent #ffffff;
+  border-color: transparent transparent transparent #ffffff; 
 }
 .axil-pricing-table.active a.axil-button:hover::before {
   -webkit-transform: scale(1, 1);
@@ -16308,12 +16308,13 @@ Accourdion Style Two
 }
 
 .my_switcher {
-  position: fixed;
-  left: 30px;
-  top: 50%;
-  transform: translateY(-50%) rotate(90deg);
+  position: absolute; /* Changed from fixed to absolute for placing it inside the navbar */
+  top: 10px; /* Adjust this value to position it vertically inside the navbar */
+  right: 20px; /* Adjust this value to position it horizontally inside the navbar */
+  transform: none; /* Removed rotate transformation */
   z-index: 99;
 }
+
 .my_switcher ul {
   margin: 0;
   padding: 0;
@@ -16323,6 +16324,7 @@ Accourdion Style Two
   justify-content: center;
   border-radius: 100px;
 }
+
 .my_switcher ul li a {
   position: relative;
   font-family: "DM Sans", sans-serif;
@@ -16336,23 +16338,29 @@ Accourdion Style Two
   align-items: center;
   justify-content: center;
 }
+
 .my_switcher ul li a img {
   padding-left: 10px;
 }
+
 .my_switcher ul li a span {
-  transform: rotate(-180deg);
+  transform: none; /* Removed rotation */
   display: block;
   text-transform: uppercase;
 }
+
 .my_switcher ul li a.active {
   display: none;
 }
+
 .my_switcher ul li a.light {
   color: #ffffff;
 }
+
 .my_switcher ul li a.dark {
   color: #18191A;
 }
+
 
 /**************************************
 	Template Styles

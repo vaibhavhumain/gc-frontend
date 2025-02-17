@@ -1,6 +1,6 @@
 ---
 id: 1
-title: "An oral history of the AIM away message (by the people who were there)" 
+title: "How to choose best bus coach for your business" 
 excerpt: "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
 authorId: 1
 thumbnail: {

@@ -1,6 +1,6 @@
 ---
 id: 10
-title: "Everything You Wanted to Know About UX and Were Afraid To Ask" 
+title: "What to look for in a luxury motor coach" 
 excerpt: "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
 authorId: 1
 thumbnail: {
