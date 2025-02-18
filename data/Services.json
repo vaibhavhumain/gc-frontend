@@ -9,9 +9,9 @@
     },
     "iconColorClass": "",
     "title": "Sleeper Coach",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "description": "Let us go on a journey of comfort and relaxation with our Sleeper Buses at Gobind Coach. We know that your long-distance travel needs to be not just convenient, but also rejuvenating next time you wake up.",
     "category": "Default",
-    "slug": "design",
+    "slug": "sleeper-bus",
     "process": {
       "title": "Our design process",
       "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
@@ -61,16 +61,16 @@
     },
     "iconColorClass": "gradient-color-02",
     "title": "Luxury Coach",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "description": "Greetings from Gobind Coach, a company that designs luxury buses with YOU in mind. Because of our dedication to reinventing travel, every trip in our Victor, Arrow, Gold Star, and Tourista models is a luxurious and comfortable experience created just for you.",
     "category": "Default",
-    "slug": "development",
+    "slug": "luxury-buses",
     "process": {
       "title": "Our development process",
       "description": "Our comprehensive development strategy ensures a perfectly crafted application for your business.",
       "strategies": [
         {
           "id": 1,
-          "title": "Discover",
+          "title": "Structure",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra04-color",
@@ -78,7 +78,7 @@
         },
         {
           "id": 2,
-          "title": "Prototype",
+          "title": "Paneling",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra05-color",
@@ -86,7 +86,7 @@
         },
         {
           "id": 3,
-          "title": "Test",
+          "title": "Interior",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra06-color",
@@ -94,7 +94,7 @@
         },
         {
           "id": 4,
-          "title": "Build",
+          "title": "Final Finishing",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra07-color",
@@ -112,8 +112,8 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Delux Coach",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Deluxe Coach",
+    "description": "Take your comfort to the next level with our Deluxe Buses. We at Gobind Coach take great satisfaction in providing you with a journey that goes above and beyond your expectations.Our Deluxe Buses are furnished with first-rate amenities that were created with you in mind:",
     "category": "Default",
     "slug": "online-marketing",
     "process": {
@@ -122,7 +122,7 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Discover",
+          "title": "Structure",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra04-color",
@@ -130,7 +130,7 @@
         },
         {
           "id": 2,
-          "title": "Prototype",
+          "title": "Paneling",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra05-color",
@@ -138,7 +138,7 @@
         },
         {
           "id": 3,
-          "title": "Test",
+          "title": "Interior",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra06-color",
@@ -146,7 +146,7 @@
         },
         {
           "id": 4,
-          "title": "Build",
+          "title": "Final Finishing",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra07-color",
@@ -164,8 +164,8 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-04",
-    "title": "Ordinary Coach",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Passenger Buses",
+    "description": "Our passenger buses at Gobind Coach Builders are unique since we put your comfort and security first. Regarding your everyday journey, we recognize that you, our esteemed passengers, deserve nothing less than the best.",
     "category": "Default",
     "slug": "business",
     "process": {
@@ -174,7 +174,7 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Discover",
+          "title": "Structure",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra04-color",
@@ -182,7 +182,7 @@
         },
         {
           "id": 2,
-          "title": "Prototype",
+          "title": "Paneling",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra05-color",
@@ -190,7 +190,7 @@
         },
         {
           "id": 3,
-          "title": "Test",
+          "title": "Interior",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra06-color",
@@ -198,7 +198,7 @@
         },
         {
           "id": 4,
-          "title": "Build",
+          "title": "Final Finishing",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra07-color",
@@ -216,8 +216,8 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-06",
-    "title": "Special Purpose Coach",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Special Purpose Buses",
+    "description": "Discover the outstanding Special Purpose Buses from Gobind Coach, created to meet your particular needs. We have the ideal solution for you whether you require a Tempo Traveler, Dog Van, Ambulance, Vanity Van, or any other type of customized bus.",
     "category": "Default",
     "slug": "technology",
     "process": {
@@ -226,7 +226,7 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Discover",
+          "title": "Structure",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra04-color",
@@ -234,7 +234,7 @@
         },
         {
           "id": 2,
-          "title": "Prototype",
+          "title": "Paneling",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra05-color",
@@ -242,7 +242,7 @@
         },
         {
           "id": 3,
-          "title": "Test",
+          "title": "Interior",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra06-color",
@@ -250,7 +250,7 @@
         },
         {
           "id": 4,
-          "title": "Build",
+          "title": "Final Finishing",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra07-color",
@@ -268,8 +268,8 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-05",
-    "title": "Institutional Coach",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Institutional Buses",
+    "description": "Greetings from Gobind Coach, your reliable source for institutional buses designed for businesses, institutions, and schools. When it comes to transportation, Gobind Coach Builders is aware of the particular requirements of businesses and educational organizations.",
     "category": "Default",
     "slug": "content-strategy",
     "process": {
@@ -278,7 +278,7 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Discover",
+          "title": "Structure",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra04-color",
@@ -286,7 +286,7 @@
         },
         {
           "id": 2,
-          "title": "Prototype",
+          "title": "Paneling",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra05-color",
@@ -294,7 +294,7 @@
         },
         {
           "id": 3,
-          "title": "Test",
+          "title": "Interior",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra06-color",
@@ -302,7 +302,7 @@
         },
         {
           "id": 4,
-          "title": "Build",
+          "title": "Final Finishing",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra07-color",
@@ -320,12 +320,12 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Logo & branding",
+    "title": "Arrow Model",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Design",
-    "slug": "logo-and-branding",
+    "category": "Luxury",
+    "slug": "arrow-model-gobind-coach",
     "process": {
-      "title": "Our logo & branding process",
+      "title": "Our Victor Model",
       "description": "Our comprehensive design strategy ensures a perfectly crafted logo for your business.",
       "strategies": [
         {
@@ -372,10 +372,10 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Website design",
+    "title": "Kasper Model",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Design",
-    "slug": "website-design",
+    "category": "Luxury",
+    "slug": "luxury-buses-gobind-coach",
     "process": {
       "title": "Our website design process",
       "description": "Our comprehensive design strategy ensures a perfectly crafted website for your business.",
@@ -424,10 +424,10 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Mobile app design",
+    "title": "Tourista Model",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Design",
-    "slug": "mobile-app-design",
+    "category": "Luxury",
+    "slug": "luxury-buses-gobind-coach",
     "process": {
       "title": "Our app design process",
       "description": "Our comprehensive design strategy ensures a perfectly designed app for your business.",
@@ -471,18 +471,18 @@
     "id": 9,
     "imageLayer": "/images/icons/layer.svg",
     "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
     },
-    "iconColorClass": "gradient-color-04",
-    "title": "Graphic/print design",
-    "description": "From simple Content Management System to complex eCommerce developer, we cover it all.",
-    "category": "Design",
-    "slug": "graphic-print-design",
+    "iconColorClass": "",
+    "title": "Content Managment",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Sleeper",
+    "slug": "content-management",
     "process": {
-      "title": "Our graphic design process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "title": "Our content management process",
+      "description": "Our comprehensive content management strategy ensures perfect content for your business.",
       "strategies": [
         {
           "id": 1,
@@ -523,18 +523,18 @@
     "id": 10,
     "imageLayer": "/images/icons/layer.svg",
     "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
     },
-    "iconColorClass": "gradient-color-03",
-    "title": "Video production",
-    "description": "From simple Content Management System to complex eCommerce developer, we cover it all.",
-    "category": "Design",
-    "slug": "video-production",
+    "iconColorClass": "",
+    "title": "SEO",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Deluxe",
+    "slug": "search-engine-optimization",
     "process": {
-      "title": "Our video production process",
-      "description": "Our comprehensive production strategy ensures a perfectly maked video for your business.",
+      "title": "Our SEO process",
+      "description": "Our seo strategy enhance trafic for your website.",
       "strategies": [
         {
           "id": 1,
@@ -580,425 +580,9 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Content Managment",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Development",
-    "slug": "content-management",
-    "process": {
-      "title": "Our content management process",
-      "description": "Our comprehensive content management strategy ensures perfect content for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 12,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-02",
-    "title": "Mobile app development",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Development",
-    "slug": "mobile-app-development",
-    "process": {
-      "title": "Our app development process",
-      "description": "Our comprehensive app development strategy ensures a perfectly crafted developed app for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 13,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
-    },
-    "iconColorClass": "gradient-color-03",
-    "title": "eCommerce",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Development",
-    "slug": "e-commerce",
-    "process": {
-      "title": "Our eCommerce process",
-      "description": "Our comprehensive eCommerce strategy reach more customers for your online business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 14,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-04.svg",
-      "width": "23",
-      "height": "36"
-    },
-    "iconColorClass": "",
-    "title": "SEO",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Online Marketing",
-    "slug": "search-engine-optimization",
-    "process": {
-      "title": "Our SEO process",
-      "description": "Our seo strategy enhance trafic for your website.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 15,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-02",
-    "title": "Pay-per click",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Online Marketing",
-    "slug": "pay-per-click",
-    "process": {
-      "title": "Our pay-per click process",
-      "description": "Our pay-per click service optimized advertising for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 16,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
-    },
-    "iconColorClass": "gradient-color-03",
-    "title": "Email marketing",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Online Marketing",
-    "slug": "email-marketing",
-    "process": {
-      "title": "Our email marketing process",
-      "description": "Our email marketing strategy ensures cost-effective marketing for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 17,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
-    },
-    "iconColorClass": "gradient-color-04",
-    "title": "Display marketing",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Online Marketing",
-    "slug": "display-marketing",
-    "process": {
-      "title": "Our display marketing process",
-      "description": "Our display marketing strategy ensures cost-effective marketing for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 18,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-02",
-    "title": "Social media marketing",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Online Marketing",
-    "slug": "social-media-marketing",
-    "process": {
-      "title": "Our social media marketing process",
-      "description": "Our social media marketing strategy ensures cost-effective marketing for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 19,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-04.svg",
-      "width": "23",
-      "height": "36"
-    },
-    "iconColorClass": "",
     "title": "Digital strategy",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Business",
+    "category": "Passenger",
     "slug": "digital-strategy",
     "process": {
       "title": "Our digital strategy process",
@@ -1040,163 +624,7 @@
     }
   },
   {
-    "id": 20,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-02",
-    "title": "Business consulting",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Business",
-    "slug": "business-consulting",
-    "process": {
-      "title": "Our business consulting process",
-      "description": "Our business consulting strategy helps you start and grow a perfect business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 21,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
-    },
-    "iconColorClass": "gradient-color-03",
-    "title": "Content writing",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Business",
-    "slug": "content-writing",
-    "process": {
-      "title": "Our content writing process",
-      "description": "Our content writing strategy ensures a highly effective content for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 22,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-02",
-    "title": "Reporting",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Business",
-    "slug": "reporting",
-    "process": {
-      "title": "Our reporting process",
-      "description": "Our comprehensive reporting strategy ensures a perfectly organized reports for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 23,
+    "id": 12,
     "imageLayer": "/images/icons/layer.svg",
     "imageIcon": {
       "src": "/images/icons/icon-04.svg",
@@ -1204,9 +632,9 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Hosting",
+    "title": "Single Glass",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Technology",
+    "category": "Institutional",
     "slug": "hosting",
     "process": {
       "title": "Our hosting process",
@@ -1248,7 +676,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 13,
     "imageLayer": "/images/icons/layer.svg",
     "imageIcon": {
       "src": "/images/icons/icon-02.svg",
@@ -1256,113 +684,9 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Big data analysis",
+    "title": "Double Glass",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Technology",
-    "slug": "big-data-analysis",
-    "process": {
-      "title": "Our big data analysis process",
-      "description": "Our big data analysis strategy helps you to grow your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 25,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-04.svg",
-      "width": "23",
-      "height": "36"
-    },
-    "iconColorClass": "",
-    "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Content strategy",
-    "slug": "design-1",
-    "process": {
-      "title": "Our design process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 26,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-02",
-    "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Content strategy",
+    "category": "Institutional",
     "slug": "design-2",
     "process": {
       "title": "Our design process",
@@ -1414,7 +738,7 @@
     "iconColorClass": "gradient-color-03",
     "title": "Design",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Content strategy",
+    "category": "Special Purpose",
     "slug": "design-3",
     "process": {
       "title": "Our design process",

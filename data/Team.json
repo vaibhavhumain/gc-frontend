@@ -75,7 +75,7 @@
     "id": 5,
     "name": "Akash Dhiman",
     "image": "/images/team/Akash.jpeg",
-    "designation": "Web Developer",
+    "designation": "Developer",
     "department": [ "Developer"],
     "socials": [
       { "type": "facebook", "url": "#" },

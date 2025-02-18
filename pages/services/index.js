@@ -94,7 +94,7 @@ const Services = () => {
                                     }`}
                                     href="#section1"
                                 >
-                                    Design
+                                    Luxury
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -104,7 +104,7 @@ const Services = () => {
                                     }`}
                                     href="#section2"
                                 >
-                                    Development
+                                    Sleeper
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -114,7 +114,7 @@ const Services = () => {
                                     }`}
                                     href="#section3"
                                 >
-                                    Online marketing
+                                    Deluxue
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -124,7 +124,7 @@ const Services = () => {
                                     }`}
                                     href="#section4"
                                 >
-                                    Business
+                                    Passenger
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -134,7 +134,7 @@ const Services = () => {
                                     }`}
                                     href="#section5"
                                 >
-                                    Technology
+                                    Institutional
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -144,7 +144,7 @@ const Services = () => {
                                     }`}
                                     href="#section6"
                                 >
-                                    Content strategy
+                                    Special Purpose
                                 </a>
                             </li>
                         </ul>
