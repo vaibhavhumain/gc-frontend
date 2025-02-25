@@ -18,7 +18,7 @@ const BlogOne = ({posts}) => {
                         <SectionTitle
                             title="Latest stories"
                             subtitle="what's going on"
-                            description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
+                            description="See what we've been up to lately and what's going in the world of buses."
                             color="extra04-color"
                             alignment="center"
                         />
@@ -33,7 +33,7 @@ const BlogOne = ({posts}) => {
                                 <div className="content">
                                     <div className="content-wrap paralax-image">
                                         <div className="inner">
-                                            <span className="category">Lifestyle</span>
+                                            <span className="category">GC Buses</span>
                                             <h5 className="title">
                                                 <Link href={`/blog/${post.slug}`} legacyBehavior>
                                                     <a className="text-ellipsis">

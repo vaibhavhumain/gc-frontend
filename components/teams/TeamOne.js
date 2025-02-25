@@ -32,9 +32,7 @@ const TeamOne = () => {
                                 <SectionTitle
                                     title="Alone we can do so little; together we can do so much."
                                     subtitle="our team"
-                                    description="Donec metus lorem, vulputate at sapien sit amet, auctor
-                  iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                  velit. Aliquam tristique libero."
+                                    description="At Gobind Coach Builders, excellence is driven by teamwork. We create premium bus bodies with the help of knowledgeable experts and solid alliances, bringing ideas to life with creativity and confidence."
                                     color="extra08-color"
                                     alignment="left"
                                 />

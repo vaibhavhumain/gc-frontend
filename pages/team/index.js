@@ -37,7 +37,7 @@ const Team = () => {
     return (
         <Layout>
             <Head>
-                <title>Team || Keystroke Creative Agency Bootstrap 5 Template</title>
+                <title>Team || Gobind Coach</title>
             </Head>
 
             <main className="page-wrapper">

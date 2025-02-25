@@ -7,7 +7,7 @@ const ErrorPage = () => {
     return (
         (<Layout showFooter={false}>
             <Head>
-                <title>404 || Keystroke Creative Agency Bootstrap 5 Template</title>
+                <title>404 || Gobind Coach</title>
             </Head>
             <main className="page-wrapper page-error">
                 <div className="axil-error-not-found fullscreen d-flex align-items-center theme-gradient-7 list-active">
@@ -22,7 +22,7 @@ const ErrorPage = () => {
                                             Enim, recusandae <br/> consectetur nesciunt magnam
                                             facilis aliquid amet earum alias?
                                         </p>
-                                        <Link href="/home-01" className="axil-button btn-large btn-transparent">
+                                        <Link href="/" className="axil-button btn-large btn-transparent">
 
                                             <span className="button-text">Go Back</span>
                                             <span className="button-icon"/>

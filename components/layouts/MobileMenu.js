@@ -93,9 +93,9 @@ const MobileMenu = () => {
                         <Link href="/">
 
                             <Image
-                                width={220}
-                                height={100}
-                                src="/images/logo/GC logo.png"
+                                width={281}
+                                height={61}
+                                src="/images/logo/logo-black.png"
                                 alt="Logo images"
                             />
 

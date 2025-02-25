@@ -98,14 +98,14 @@ const Header = ({headerSetting = {}}) => {
                     <div className="row align-items-center">
                         <div className={headerSettings.leftColumn}>
                             <div className="logo">
-                                <Link href="/index">
+                                <Link href="/">
 
                                     <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
 
                                 </Link>
                             </div>
                         </div>
-                        {headerSettings.style === "two" && (
+                        {headerSettings.style === "two" && ( 
                             <div className="col-lg-7 col-xl-6 d-none d-lg-block">
                                 <div className="mainmenu-wrapepr justify-content-center">
                                     <nav className="mainmenu-nav d-none d-lg-block">

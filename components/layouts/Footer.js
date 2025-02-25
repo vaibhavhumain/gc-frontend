@@ -103,8 +103,10 @@ const Footer = ({footerSetting = {}}) => {
                                                 <>
                                                     <h2>Get in touch!</h2>
                                                     <p>
-                                                        Fusce varius&sbquo; dolor tempor interdum tristique&sbquo; dui
-                                                        urna <br/> bibendum magna&sbquo; ut ullamcorper purus
+                                                    Have an idea for a project? Gobind Coach Builders may help<br></br> 
+                                                    you realize your dream. For dependable solutions, creative<br></br> 
+                                                    designs, and skilled bus body manufacturing, get in touch with<br></br>
+                                                     us. Together, let's create something amazing!
                                                     </p>
                                                     <div className="axil-newsletter">
                                                         <form className="newsletter-form" action="#">
@@ -119,7 +121,7 @@ const Footer = ({footerSetting = {}}) => {
                                             ) : (
                                                 <>
                                                     <div className="logo">
-                                                        <Link href="/home-01">
+                                                        <Link href="/">
 
                                                             <Logo variant="two" fillTextColor="#fff"/>
 
@@ -129,7 +131,7 @@ const Footer = ({footerSetting = {}}) => {
                                                         <div className="address">
                                                             <p>
                                                                 <span>A.</span>3078 Simpson Square&sbquo; Clinton&sbquo;
-                                                                Oklahoma&sbquo; <br/> 73601&sbquo; Londan
+                                                                Oklahoma&sbquo; <br/> 73601&sbquo; London
                                                             </p>
                                                             <p>
                                                                 <span>T.</span>
@@ -145,7 +147,6 @@ const Footer = ({footerSetting = {}}) => {
                                             )}
                                         </div>
                                     </div>
-
                                     <div
                                         className={`${
                                             footerSettings.style === "three"

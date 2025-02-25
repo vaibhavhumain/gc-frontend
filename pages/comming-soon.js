@@ -8,7 +8,7 @@ import ThemeSwitcher from '../components/layouts/ThemeSwitcher';
 const CommingSoon = () => {
     return (<>
         <Head>
-            <title>Comming Soon || Keystroke Creative Agency Bootstrap 5 Template</title>
+            <title>Comming Soon || Gobind Coach</title>
         </Head>
         <ThemeSwitcher/>
         <main className="page-wrapper">

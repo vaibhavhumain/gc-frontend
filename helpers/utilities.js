@@ -35,7 +35,6 @@ const containsObject = (obj, list) => {
 
   return -1;
 };
-
 const getCategories = (blogs) => {
   let allPosts = blogs.map((item) => item.postdata),
     cats = allPosts.map((item) => item.categories),

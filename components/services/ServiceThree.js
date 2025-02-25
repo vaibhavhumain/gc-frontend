@@ -36,8 +36,8 @@ const ServiceThree = () => {
                     <div className="col-lg-12">
                         <SectionTitle
                             title="Why should you work with us?"
-                            subtitle="our valus"
-                            description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                            subtitle="our values"
+                            description="With each bus body we construct, Gobind Coach Builders ensures accuracy, robustness, and creativity. We are the industry's go-to option because we guarantee safety, style, and dependability with our unique solutions, premium materials, and customer-first philosophy."
                             color="extra08-color"
                             alignment="center"
                         />

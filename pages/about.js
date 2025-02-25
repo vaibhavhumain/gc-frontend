@@ -54,7 +54,7 @@ const About = () => {
                 title: "Final Finishing",
                 subtitle: "our four step process",
                 description:
-                    "This is where Gobind Coach Builders turns your buses into masterpieces. The final finishing involves a series of meticulous steps to ensure a flawless and durable exterior.We begin with a thorough cleaning and preparation of the bus body. Then, we apply high-quality paints and coatings to provide a protective layer and a beautiful finish. We offer a wide range of colors and designs to match your brand identity.Finally, we add the final touches like stripes, logos, and decorative elements. This step ensures that your buses are not just functional but also visually appealing and eye-catching.Now, your buses are ready to hit the road! What are your plans for showcasing your brand new buses? Will you be organizing a grand unveiling event, or are you planning to take them on a test drive? metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+                    "This is where Gobind Coach Builders turns your buses into masterpieces. We pay attention to the smallest details, ensuring that every element is perfect. From the exterior paint job to the interior upholstery, we take pride in our craftsmanship. Our skilled team uses the latest tools and techniques to create a flawless finish that will impress your passengers and elevate your brand. We also conduct rigorous quality checks to ensure that every bus meets our high standards before it leaves our facility.",
                 highlightColor: "extra07-color",
                 image: "/images/process/process-04.jpg",
             },
@@ -106,11 +106,9 @@ const About = () => {
                                             </Link>
                                         </h2>
                                         <p className="subtitle-2">
-                                            Donec metus lorem, vulputate at sapien sit amet, auctor
-                                            iaculis lorem. In vel hendrerit nisi. Vestibulum eget
-                                            risus velit. Aliquam tristique libero at dui sodales, et
-                                            placerat orci lobortis. Maecenas ipsum neque, elementum id
-                                            dignissim et, imperdiet vitae mauris.
+                                        Gobind Coach Builders is more than just a bus manufacturer; they are architects of transportation solutions for those who change the world.
+                                         From delivering essential supplies to remote communities to transporting students to educational opportunities, Gobind Coach's buses empower individuals and organizations to make a positive impact.
+                                         Their commitment to quality, durability, and innovation ensures that their vehicles are reliable partners in the journey towards a better future
                                         </p>
                                         <Link
                                             href={`/case-study/${slugify(CaseStudyData[0].title)}`}

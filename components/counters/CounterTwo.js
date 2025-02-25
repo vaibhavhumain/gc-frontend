@@ -21,7 +21,7 @@ const CounterTwo = () => {
                         <SectionTitle
                             title="What makes us special?"
                             subtitle="experts in field"
-                            description="Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero."
+                            description="At Gobind Coach Builders, we create premium bus bodies by fusing creativity, robustness, and accuracy. Our bespoke designs guarantee comfort, style, and efficiency for both luxury and regular coaches, as well as sleepers. Mile after mile, we establish excellence and confidence by using high-quality materials and skilled craftsmanship."
                             color="extra08-color"
                             alignment="left"
                         />

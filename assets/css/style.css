@@ -14587,6 +14587,36 @@ ul.client-list li a img {
   position: relative;
   z-index: 2;
 }
+.axil-search-area .search-results {
+  margin-top: 20px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.axil-search-area .search-results ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.axil-search-area .search-results ul li {
+  margin-bottom: 10px;
+}
+
+.axil-search-area .search-results ul li a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.axil-search-area .no-results {
+  margin-top: 20px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
 .bg-shape-image-position .bg-shape-image {
   position: absolute;
   bottom: 3%;
