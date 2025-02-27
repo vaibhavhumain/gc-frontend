@@ -54,7 +54,6 @@ const BrandTwo = () => {
                 "height": 64
             }
         }
-
     ]
 
     let settings = {
@@ -88,7 +87,7 @@ const BrandTwo = () => {
     };
 
     return (
-        (<div className="axil-client-area bg-shape-image-position axil-bg-oval">
+        <div className="axil-client-area bg-shape-image-position axil-bg-oval">
             <div className="bg-shape-container">
                 <div className="light">
                     <Image src="/images/others/background-shape.svg" alt="shape image" layout="fill"/>
@@ -113,18 +112,18 @@ const BrandTwo = () => {
                                     <Slider {...settings}>
                                         {brands?.map((brand, index) => {
                                             return (
-                                                (<div key={`brand-${index}`}>
-                                                    <Link href="#">
-
-                                                        <Image
-                                                            width={brand.image.width}
-                                                            height={brand.image.width}
-                                                            src={brand.image.src}
-                                                            alt="Client Images"
-                                                        />
-
+                                                <div key={`brand-${index}`}>
+                                                    <Link href="#" legacyBehavior>
+                                                        <a>
+                                                            <Image
+                                                                width={brand.image.width}
+                                                                height={brand.image.width}
+                                                                src={brand.image.src}
+                                                                alt="Client Images"
+                                                            />
+                                                        </a>
                                                     </Link>
-                                                </div>)
+                                                </div>
                                             );
                                         })}
                                     </Slider>
@@ -134,7 +133,7 @@ const BrandTwo = () => {
                     </div>
                 </div>
             </div>
-        </div>)
+        </div>
     );
 };
 

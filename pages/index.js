@@ -12,6 +12,7 @@ import PortfolioOne from '../components/portfolio/PortfolioOne';
 import ServiceTwo from '../components/services/ServiceTwo';
 import TeamOne from '../components/teams/TeamOne';
 import TestimonialOne from '../components/testimonials/TestimonialOne';
+import Link from 'next/link'; // Import Link for navigation
 
 const HomeTwo = ({posts}) => {
     const layoutSettings = {
@@ -49,6 +50,13 @@ const HomeTwo = ({posts}) => {
                 <BlogOne posts={posts.slice(0, 2)}/>
 
                 <CallToActionOne/>
+
+                {/* Add link to the infrastructure page */}
+                <div>
+                    <Link href="/infrastructure" legacyBehavior>
+                        <a>Infrastructure</a>
+                    </Link>
+                </div>
             </main>
         </Layout>
     );

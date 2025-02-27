@@ -20,11 +20,12 @@
   "resources": [
     {"title":  "Blog", "url":  "/blog"},
     {"title":  "Case Studies", "url":  "/case-study"},
-    {"title":  "Portfolio", "url":  "/portfolio"}
+    {"title":  "Portfolio", "url":  "/portfolio"},
+    {"title":  "Infrastructure", "url":  "/infrastructure"}
   ],
   "support": [
     {"title":  "Contact", "url":  "/contact"},
     {"title":  "Privacy Policy", "url":  "/privacy-policy"},
-    {"title":  "Sitemap", "url":  "#"}
+    {"title":  "Sitemap", "url":  "/"}
   ]
 }

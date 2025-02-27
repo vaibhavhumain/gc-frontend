@@ -326,7 +326,7 @@
     "slug": "luxury",
     "process": {
       "title": "Our Victor Model",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted logo for your business.",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted bus for your business.",
       "strategies": [
         {
           "id": 1,
@@ -377,8 +377,8 @@
     "category": "Luxury",
     "slug": "luxury-buses-gobind-coach",
     "process": {
-      "title": "Our website design process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted website for your business.",
+      "title": "Our Kasper Model",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted bus for your business.",
       "strategies": [
         {
           "id": 1,
@@ -429,8 +429,8 @@
     "category": "Luxury",
     "slug": "luxury-buses-gobind-coach",
     "process": {
-      "title": "Our app design process",
-      "description": "Our comprehensive design strategy ensures a perfectly designed app for your business.",
+      "title": "Our Tourista Model",
+      "description": "Our comprehensive design strategy ensures a perfectly designed bus for your business.",
       "strategies": [
         {
           "id": 1,
@@ -476,7 +476,7 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Content Managment",
+    "title": "Spider",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Sleeper",
     "slug": "content-management",

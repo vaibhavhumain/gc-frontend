@@ -65,23 +65,24 @@ const SideNav = ({toggleSidenav}) => {
                                     <address className="address">
                                         <span className="title">Contact Information</span>
                                         <p>
-                                            Theodore Lowe&sbquo; Ap #867-859 <br/> Sit Rd&sbquo; Azusa New York
+                                            <b>Manufacturing Unit:</b> Bhadaur near reliance petrol pump, Barnala road, Distt. Barnala, Punjab, 148102<br></br>
+                                            <b>Corporate Office</b> SCO 106, 2ND FLOOR, Sector 86, SAS Nagar, Mohali, 160055
                                         </p>
                                     </address>
                                     <address className="address">
                                         <span className="title">
-                                          We&lsquo;re Available 24/ 7. Call Now.
+                                          We&lsquo;re Available Mon to Sat (9am to 6pm). Call Now.
                                         </span>
                                         <p>
-                                            <a className="tel" href="tel:8884562790">
+                                            <a className="tel" href="tel:+919595000040">
                                                 <i className="fas fa-phone"/>
-                                                (888) 456-2790
+                                                +91 95950 00040
                                             </a>
                                         </p>
                                         <p>
-                                            <a className="tel" href="tel:12125553333">
+                                            <a className="mail" href="mailto:sales@gobindcoach.com">
                                                 <i className="fas fa-fax"/>
-                                                (121) 255-53333
+                                                sales@gobindcoach.com
                                             </a>
                                         </p>
                                     </address>

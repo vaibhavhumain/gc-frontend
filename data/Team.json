@@ -57,7 +57,7 @@
     "id": 4,
     "name": "Param Malik",
     "image": "/images/team/Param.jpeg",
-    "designation": "Executive Director/Data Analyst",
+    "designation": "Executive Assistant",
     "department": ["Management"],
     "socials": [
       { "type": "facebook", "url": "#" },
@@ -110,7 +110,7 @@
     "id": 7,
     "name": "Akshat",
     "image": "/images/team/Akshat.jpeg",
-    "designation": "Business Development Officer",
+    "designation": "Business Development Executive",
     "department": ["BD"],
     "socials": [
       { "type": "facebook", "url": "#" },
@@ -183,6 +183,24 @@
     "name": "Shalini",
     "image": "/images/team/Shalini.jpeg",
     "designation": "Accountant",
+    "department": ["Finance"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 12,
+    "name": "Deepak",
+    "image": "/images/team/deepak.png",
+    "designation": "Assistant Accountant",
     "department": ["Finance"],
     "socials": [
       { "type": "facebook", "url": "#" },
