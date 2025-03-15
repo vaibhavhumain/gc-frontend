@@ -217,9 +217,9 @@ const Team = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    title="Design startup movement"
+                                    title="Gobind Coach Builders – Crafting Comfort, Engineering Excellence! 🚍✨"
                                     subtitle="experts in field"
-                                    description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
+                                    description=" A team driven by precision, innovation, and excellence in coach building! 🚍✨"
                                     color="extra08-color"
                                     alignment="center"
                                 />
@@ -249,7 +249,7 @@ const Team = () => {
                 </div>
 
                 {isWindow && (
-                    <VideoPlayer url="https://www.youtube.com/watch?v=Pj_geat9hvI"/>
+                    <VideoPlayer url="https://youtu.be/voBAEwlZcA0?si=Aeb_mwEbZE6kwj4d"/>
                 )}
             </main>
         </Layout>

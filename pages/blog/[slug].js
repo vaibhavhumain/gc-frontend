@@ -32,7 +32,7 @@ const BlogDetails = ({blogdata, slug, content, allPosts}) => {
         <Layout>
             <Head>
                 <title>
-                    Blog Details || keystroke Creative Agency Bootstrap5 Template
+                    Blog Details || Gobind Coach
                 </title>
             </Head>
 

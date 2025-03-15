@@ -115,7 +115,7 @@
     "title": "Deluxe Coach",
     "description": "Take your comfort to the next level with our Deluxe Buses. We at Gobind Coach take great satisfaction in providing you with a journey that goes above and beyond your expectations.Our Deluxe Buses are furnished with first-rate amenities that were created with you in mind:",
     "category": "Default",
-    "slug": "online-marketing",
+    "slug": "deluxe-coach",
     "process": {
       "title": "Our online marketing process",
       "description": "Our comprehensive online marketing strategy ensures enough trafic for your business.",
@@ -167,7 +167,7 @@
     "title": "Passenger Buses",
     "description": "Our passenger buses at Gobind Coach Builders are unique since we put your comfort and security first. Regarding your everyday journey, we recognize that you, our esteemed passengers, deserve nothing less than the best.",
     "category": "Default",
-    "slug": "business",
+    "slug": "passenger-buses",
     "process": {
       "title": "Our business process",
       "description": "Our comprehensive business strategy ensures quality and perfection for our clients.",
@@ -219,7 +219,7 @@
     "title": "Special Purpose Buses",
     "description": "Discover the outstanding Special Purpose Buses from Gobind Coach, created to meet your particular needs. We have the ideal solution for you whether you require a Tempo Traveler, Dog Van, Ambulance, Vanity Van, or any other type of customized bus.",
     "category": "Default",
-    "slug": "technology",
+    "slug": "special-purpose-buses",
     "process": {
       "title": "Our technical process",
       "description": "Our comprehensive technical strategy ensures a perfectly maintained system for your business.",
@@ -271,7 +271,7 @@
     "title": "Institutional Buses",
     "description": "Greetings from Gobind Coach, your reliable source for institutional buses designed for businesses, institutions, and schools. When it comes to transportation, Gobind Coach Builders is aware of the particular requirements of businesses and educational organizations.",
     "category": "Default",
-    "slug": "content-strategy",
+    "slug": "institutional-buses",
     "process": {
       "title": "Our content strategy process",
       "description": "Our comprehensive content strategy ensures top class content for your business.",
@@ -323,7 +323,7 @@
     "title": "Arrow Model",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Luxury",
-    "slug": "luxury",
+    "slug": "luxury-buses-gobind-coach",
     "process": {
       "title": "Our Victor Model",
       "description": "Our comprehensive design strategy ensures a perfectly crafted bus for your business.",
@@ -479,9 +479,9 @@
     "title": "Spider",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Sleeper",
-    "slug": "content-management",
+    "slug": "sleeper-buses-gobind-coach",
     "process": {
-      "title": "Our content management process",
+      "title": "Our Sleeper Bus Building process",
       "description": "Our comprehensive content management strategy ensures perfect content for your business.",
       "strategies": [
         {
@@ -531,7 +531,7 @@
     "title": "SEO",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Deluxe",
-    "slug": "search-engine-optimization",
+    "slug": "deluxe-buses-gobind-coach",
     "process": {
       "title": "Our SEO process",
       "description": "Our seo strategy enhance trafic for your website.",
@@ -583,9 +583,9 @@
     "title": "Digital strategy",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Passenger",
-    "slug": "digital-strategy",
+    "slug": "passenger-buses-gobind-coach",
     "process": {
-      "title": "Our digital strategy process",
+      "title": "Our Passenger Bus Building process",
       "description": "Our digital strategy ensures a well maintained digital system for your business.",
       "strategies": [
         {
@@ -635,9 +635,9 @@
     "title": "Single Glass",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Institutional",
-    "slug": "hosting",
+    "slug": "institutional-buses-gobind-coach",
     "process": {
-      "title": "Our hosting process",
+      "title": "Our Institutional Bus Building process",
       "description": "Our comprehensive hosting business ensures a secuired hosted database for your website.",
       "strategies": [
         {
@@ -687,7 +687,7 @@
     "title": "Double Glass",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Institutional",
-    "slug": "design-2",
+    "slug": "institutional-buses-gobind-coach",
     "process": {
       "title": "Our design process",
       "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
@@ -739,7 +739,7 @@
     "title": "Design",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Special Purpose",
-    "slug": "design-3",
+    "slug": "special-purpose-buses-gobind-coach",
     "process": {
       "title": "Our design process",
       "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",

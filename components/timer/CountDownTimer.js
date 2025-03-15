@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react';
 
 const CountDownTimer = () => {
     const [countdownDate, setCountdownDate] = useState(
-        new Date("2/28/2025").getTime()
+        new Date("3/15/2025").getTime()
     );
 
     const [state, setState] = useState({

@@ -44,7 +44,7 @@ const TeamDetails = ({teamData}) => {
         <Layout>
             <Head>
                 <title>
-                    Team Details || Keystroke Creative Agency Bootstrap 5 Template
+                    Team Details || Gobind Coach
                 </title>
             </Head>
 

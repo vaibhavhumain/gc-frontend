@@ -4,13 +4,13 @@ import Image from "next/legacy/image";
 const BannerSix = (
     {
         title = 'Best buses for your business',
-        subtitle = 'A quick view of industry specific problems solved with design by the awesome team at Gobind Coach Builders.',
+        subtitle = 'Purchasing buses from Gobind Coach Builders is an investment in comfort, quality, and creativity. Our dedication to quality not only improves passengers travel experiences but also boosts your company standing in the transportation sector.',
         bannerStyleClass = 'axil-breadcrumb-area breadcrumb-style-2 pt--170 pb--70 theme-gradient',
         bannerTitleClass = 'page-title mb--20',
         leftColumn = 'col-lg-5 order-2 order-lg-1 mt_md--30 mt_sm--30',
         rightColumn = 'col-lg-7 order-1 order-lg-2',
-        bannerImageOne = '/images/others/keystoke-image-1.png',
-        bannerImageTwo = '/images/others/keystoke-image-2.svg',
+        bannerImageOne = '/images/others/gc-image-01.jpg',
+        // bannerImageTwo = '/images/others/keystoke-image-2.svg',
         shapeImage = '/images/slider/single-service-02.png',
         isServiceDetails = false,
         showPersonImage = true,
@@ -42,7 +42,7 @@ const BannerSix = (
                                         />
                                     </Tilt>
                                 </div>
-                                <div className="image-group">
+                                {/* <div className="image-group">
                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                         <Image
                                             width={267}
@@ -52,7 +52,7 @@ const BannerSix = (
                                             alt="GC Images"
                                         />
                                     </Tilt>
-                                </div>
+                                </div> */}
                                 <div className="shape-group">
                                     <div className="shape shape-1">
                                         <i className="icon icon-breadcrumb-1"/>

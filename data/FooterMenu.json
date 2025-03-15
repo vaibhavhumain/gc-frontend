@@ -1,26 +1,22 @@
 {
   "social": [
     {"type":  "facebook", "icon": "fa-facebook-f", "url":  "https://www.facebook.com/"},
-    {"type":  "twitter", "icon": "fa-brands fa-x-twitter", "url":  "https://twitter.com/"},
-    {"type":  "pinterest", "icon": "fa-pinterest-p", "url":  "https://www.pinterest.com/"},
     {"type":  "linkedin", "icon": "fa-linkedin-in", "url":  "https://www.linkedin.com/"},
     {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/"},
-    {"type":  "vimeo", "icon": "fa-vimeo-v", "url":  "https://vimeo.com/"},
-    {"type":  "dribble", "icon": "fa-dribbble", "url":  "https://dribbble.com/"},
-    {"type":  "behance", "icon": "fa-behance", "url":  "https://www.behance.net/"}
+    {"type":  "youtube", "icon": "fa-youtube", "url":  "https://www.youtube.com/"}
   ],
   "services": [
-    {"title":  "Sleeper Buses", "url":  "/services/sleeper"},
-    {"title":  "Luxury Buses", "url":  "/services/luxury"},
+    {"title":  "Sleeper Buses", "url":  "/services"},
+    {"title":  "Luxury Buses", "url":  "/services"},
     {"title":  "Deluxe Buses", "url":  "/services/deluxe"},
-    {"title":  "Institutional Buses", "url":  "/services/Institutional"},
-    {"title":  "Passenger Buses", "url":  "/services/passenger"},
-    {"title":  "Special Purpose", "url":  "/services/online-marketing/social-media-marketing"}
+    {"title":  "Institutional Buses", "url":  "/services/"},
+    {"title":  "Passenger Buses", "url":  "/services/"},
+    {"title":  "Special Purpose", "url":  "/services/"}
   ],
   "resources": [
     {"title":  "Blog", "url":  "/blog"},
     {"title":  "Case Studies", "url":  "/case-study"},
-    {"title":  "Portfolio", "url":  "/portfolio"},
+    {"title":  "Portfolio", "url":  "/portfolio"},  
     {"title":  "Infrastructure", "url":  "/infrastructure"}
   ],
   "support": [

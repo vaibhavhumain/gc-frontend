@@ -1,19 +1,17 @@
 import Head from 'next/head';
 import Layout from '../components/layouts/Layout';
-import SectionTitle from '../components/common/SectionTitle';
-
+import BannerEight from '../components/banners/BannerEight';
+import ServiceFour from '../components/services/ServiceFour';
 const Infrastructure = () => {
     return (
         <Layout>
             <Head>
-                <title>Infrastructure</title>
+                <title>Infrastructure || Gobind Coach</title>
                 <meta name="description" content="Information about our infrastructure services." />
             </Head>
-            <SectionTitle title="Our Infrastructure" />
-            <div>
-                <h2>Infrastructure Overview</h2>
-                <p>Details about the infrastructure services offered will go here.</p>
-            </div>
+            <BannerEight />
+            <ServiceFour />
+
         </Layout>
     );
 };
