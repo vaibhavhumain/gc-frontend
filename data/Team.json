@@ -69,7 +69,7 @@
       { "type": "dribble", "url": "#" },
       { "type": "behance", "url": "#" }
     ],
-    "introduction": "With 1.5 years of experience as a Data Analyst and a strong background in executive support, I bring a unique combination of organizational expertise and data-driven insights to my role as an Executive Assistant.My analytical skills enable me to interpret complex data, identify trends, and provide actionable recommendations that enhance decision-making and operational efficiency.  In addition to managing schedules, coordinating meetings, and handling high-level administrative tasks, I leverage my data analysis experience to track key metrics, streamline workflows, and support strategic planning. My adaptability, attention to detail, and proactive approach ensure that I anticipate needs and deliver results aligned with organizational goals.  By blending analytical capabilities with exceptional administrative skills, I am dedicated to optimizing processes, fostering collaboration, and contributing to the success of the executives I support."
+    "introduction": "With 1.5 years of experience as a Data Analyst and a strong background in management, I bring a unique combination of organizational expertise and data-driven insights to my role as an Executive Assistant.My analytical skills enable me to interpret complex data, identify trends, and provide actionable recommendations that enhance decision-making and operational efficiency.  In addition to managing schedules, coordinating meetings, and handling high-level administrative tasks, I leverage my data analysis experience to track key metrics, streamline workflows, and support strategic planning. My adaptability, attention to detail, and proactive approach ensure that I anticipate needs and deliver results aligned with organizational goals.  By blending analytical capabilities with exceptional administrative skills, I am dedicated to optimizing processes, fostering collaboration, and contributing to the success of the executives I support."
   },
   {
     "id": 5,
@@ -116,7 +116,7 @@
       { "type": "twitter", "url": "#" },
       { "type": "linkedin", "url": "https://www.linkedin.com/in/paramjeet-singh-malik/" }
     ],
-    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+    "introduction": "With 1.5 years of experience as a Data Analyst and a strong background in management, I bring a unique combination of organizational expertise and data-driven insights to my role as an Executive Assistant.My analytical skills enable me to interpret complex data, identify trends, and provide actionable recommendations that enhance decision-making and operational efficiency.  In addition to managing schedules, coordinating meetings, and handling high-level administrative tasks, I leverage my data analysis experience to track key metrics, streamline workflows, and support strategic planning. My adaptability, attention to detail, and proactive approach ensure that I anticipate needs and deliver results aligned with organizational goals.  By blending analytical capabilities with exceptional administrative skills, I am dedicated to optimizing processes, fostering collaboration, and contributing to the success of the executives I support."
   },
   {
     "id": 8,
@@ -139,7 +139,7 @@
   {
     "id": 9,
     "name": "Kirti Oswal",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/kirti.png",
     "designation": "HR Recruiter",
     "department": ["HR"],
     "socials": [
@@ -211,7 +211,7 @@
   {
     "id": 13,
     "name": "Gurjit Singh",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/Gurjit.png",
     "designation": "Production Supervisor",
     "department": ["Production"],
     "socials": [
@@ -229,7 +229,7 @@
   {
     "id": 14,
     "name": "Kiranjit Kaur Bhatia",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/Kiran.png",
     "designation": "General Manager Sales",
     "department": ["Sales"],
     "socials": [
@@ -247,7 +247,7 @@
   {
     "id": 15,
     "name": "Balwinder Pal Sharma",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/balwinder.png",
     "designation": "General Manager Inside Sales",
     "department": ["Sales"],
     "socials": [
@@ -265,7 +265,7 @@
   {
     "id": 16,
     "name": "Gursharan Singh Saini",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/Gursharan.png",
     "designation": "Sr. Manager Sales",
     "department": ["Sales"],
     "socials": [
@@ -283,7 +283,7 @@
   {
     "id": 17,
     "name": "Ravi Pal Singh",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/ravi.png",
     "designation": "Area Sales Manager",
     "department": ["Sales"],
     "socials": [
@@ -301,7 +301,7 @@
   {
     "id": 18,
     "name": "Anupam Alok",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/anupam.png",
     "designation": "Area Sales Manager",
     "department": ["Sales"],
     "socials": [
@@ -331,7 +331,7 @@
   {
     "id": 20,
     "name": "Shubham Chauhan",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/shubham.png",
     "designation": "Area Sales Executive",
     "department": ["Sales"],
     "socials": [
@@ -349,7 +349,7 @@
   {
     "id": 21,
     "name": "Piyush Chauhan",
-    "image": "/images/team/team-04.jpg",
+    "image": "/images/team/Piyush.png",
     "designation": "Area Sales Executive",
     "department": ["Sales"],
     "socials": [
@@ -418,6 +418,8 @@
     "image": "/images/team/Akash.jpg",
     "designation": "Software Developer Engineer(SDE)",
     "department": ["Information Technology"],
+    "contact": "+91 7876639232",
+    "email": "akashdhiman@gobindcoach.com",
     "socials": [
       { "type": "twitter", "url": "https://x.com/dhima25980" },
       { "type": "linkedin", "url": "https://www.linkedin.com/in/akash-dhiman-09aa47247/" }

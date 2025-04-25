@@ -17,9 +17,9 @@ const CounterOne = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <SectionTitle
-                            title="Design startup movement"
+                            title="Gobind Coach Builders"
                             subtitle="experts in field"
-                            description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
+                            description="Drivind Excellence on Wheels since 1988"
                             color="extra08-color"
                             alignment="center"
                         />

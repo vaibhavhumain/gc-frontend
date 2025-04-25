@@ -12,7 +12,7 @@ import PortfolioOne from '../components/portfolio/PortfolioOne';
 import ServiceTwo from '../components/services/ServiceTwo';
 import TeamOne from '../components/teams/TeamOne';
 import TestimonialOne from '../components/testimonials/TestimonialOne';
-import Link from 'next/link'; // Import Link for navigation
+import Link from 'next/link'; 
 
 const HomeTwo = ({posts}) => {
     const layoutSettings = {
@@ -59,7 +59,7 @@ const HomeTwo = ({posts}) => {
                 </div>
             </main>
         </Layout>
-    );
+    ); 
 };
 
 export default HomeTwo;

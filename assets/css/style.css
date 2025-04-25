@@ -1,6 +1,6 @@
 /*****************************************************************************
 
-	Template Name: Keystroke Creative Agency Bootstrap5 Html5 Template
+	Name: Gobind Coach Builders
 	Note: This is style css.
 
 ******************************************************************************/
@@ -14587,6 +14587,7 @@ ul.client-list li a img {
 .bg-shape-image-position {
   position: relative;
   z-index: 2;
+  min-height: 100vh;
 }
 .axil-search-area .search-results {
   margin-top: 20px;
@@ -14625,6 +14626,7 @@ ul.client-list li a img {
   z-index: -1;
   right: 0;
   width: 100%;
+  height: auto;
 }
 .bg-shape-image-position .bg-shape-image img {
   width: 100%;
@@ -21179,5 +21181,143 @@ body.active-dark-mode .portfolio-slider .thumbnail img.light-image {
 body.active-dark-mode .portfolio-slider .thumbnail img.dark-image {
   display: block;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInDown {
+  animation: fadeInDown 1s ease-out forwards;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+/* UltimateSlider.css */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+}
+
+.slide-image:hover {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.overlay h2 {
+  font-size: 2.5rem;
+  color: #f87171; /* red-400 */
+  animation: fadeInDown 1s ease;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #e5e7eb; /* gray-200 */
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.loader-spinner {
+  width: 3rem;
+  height: 3rem;
+  border: 4px solid #ef4444;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.sparkle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6rem;
+  height: 6rem;
+  background: rgba(239, 68, 68, 0.6);
+  border-radius: 9999px;
+  filter: blur(24px);
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+
+.sparkle.active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */

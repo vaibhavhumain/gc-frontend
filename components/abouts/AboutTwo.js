@@ -34,11 +34,12 @@ const AboutTwo = () => {
               <div className="section-title text-start">
                 <span className="sub-title extra08-color">About us</span>
                 <h2 className="title">
-                  Why branding <br /> matters?
+                  Why Gobind Coach Builders are one step ahead?
                 </h2>
                 <p className="subtitle-2">
-                  Ut condimentum enim nec diam convallis mollis. Sed felis quam,
-                  semper dapibus purus sed, rhoncus ullamcorper lacus.
+                At Gobind Coach Builders, we blend innovation, craftsmanship, and performance to deliver coaches that go beyond expectations. From luxury designs to durable builds, every vehicle is crafted with precision, modern technology, and customer-focused customization. We stay ahead by constantly innovating, using advanced materials and cutting-edge designs to create coaches that are stylish, reliable, and built for the future.
+
+
                 </p>
               </div>
 
