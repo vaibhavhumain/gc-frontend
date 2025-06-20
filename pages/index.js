@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Head from 'next/head';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import LogoLoader from '../components/common/LogoLoader';
 import BannerTwo from '../components/banners/BannerTwo';
 import BlogOne from '../components/blogs/BlogOne';
@@ -57,7 +57,6 @@ const HomeTwo = ({posts}) => {
 
                 <CallToActionOne/>
 
-                {/* Add link to the infrastructure page */}
                 <div>
                     <Link href="/infrastructure" legacyBehavior>
                         <a>Infrastructure</a>

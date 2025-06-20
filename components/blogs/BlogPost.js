@@ -1,282 +1,219 @@
 import Image from "next/legacy/image";
 import Link from 'next/link';
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import AuthorData from '../../data/Authors.json';
 import VideoPlayer from '../../components/common/VideoPlayer';
 
-let settings = {
-    dots: true,
-    arrows: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+const settings = {
+  dots: true,
+  arrows: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
 };
 
-const BlogPost = ({post, postType = 'default'}) => {
-    const [isWindow, setIsWindow] = useState(false);
-    const [author, setAuthor] = useState({});
+const BlogPost = ({ post, postType = 'default' }) => {
+  const [isWindow, setIsWindow] = useState(false);
+  const [author, setAuthor] = useState(null);
 
-    useEffect(() => {
-        const getAuthor = () => {
-            const blogAuthor = AuthorData.find((author) => {
-                return author.id === post.postdata.authorId;
-            });
-            setAuthor(blogAuthor);
-        };
-        getAuthor();
-        setIsWindow(true);
-    }, [post, setAuthor, setIsWindow]);
+  useEffect(() => {
+    const blogAuthor = AuthorData.find((a) => a.id === post.postdata.authorId);
+    setAuthor(blogAuthor || null);
+    setIsWindow(true);
+  }, [post]);
 
-    return (
-        <>
-            {postType === "default" && (
-                <div className="axil-blog-list">
-                    <div className="blog-top">
-                        <h3 className="title">
-                            <Link href={`/blog/${post.slug}`} legacyBehavior>{post.postdata.title}</Link>
-                        </h3>
-                        <div className="author">
-                            <div className="author-thumb">
-                                {author.avatar && (
-                                    <Image
-                                        width={50}
-                                        height={50}
-                                        src={author.avatar}
-                                        alt="Blog Author"
-                                    />
-                                )}
-                            </div>
-                            <div className="info">
-                                <h6>{author.name}</h6>
-                                <ul className="blog-meta">
-                                    <li>{post.postdata.publishedAt}</li>
-                                    <li>{post.postdata.readingTime}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="thumbnail">
-                        <Link href={`/blog/${post.slug}`} legacyBehavior>
-                            <a>
-                                <Image
-                                    width={850}
-                                    height={450}
-                                    className="w-100"
-                                    src={post.postdata.thumbnail.large}
-                                    alt="Blog Images"
-                                    priority={true}
-                                />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="content">
-                        <p>{post.postdata.excerpt}</p>
-                        <Link href={`/blog/${post.slug}`} legacyBehavior>
-                            <a className="axil-button btn-large btn-transparent">
-                                <span className="button-text">Read More</span>
-                                <span className="button-icon"/>
-                            </a>
-                        </Link>
-                    </div>
-                </div>
-            )}
+  const authorName = author?.name || post.postdata.author || "Unknown Author";
+const authorAvatar = author?.avatar || "https://res.cloudinary.com/difqelsxz/image/upload/v1750402489/default-avatar_dxgrbg.jpg";
 
-            {postType === "gallery" && (
-                <div className="axil-blog-list gallery-post">
-                    <div className="blog-top">
-                        <h3 className="title">
-                            <Link href={`/blog/${post.slug}`} legacyBehavior>{post.postdata.title}</Link>
-                        </h3>
-                        <div className="author">
-                            <div className="author-thumb">
-                                {author.avatar && (
-                                    <Image
-                                        width={50}
-                                        height={50}
-                                        src={author.avatar}
-                                        alt="Blog Author"
-                                    />
-                                )}
-                            </div>
-                            <div className="info">
-                                <h6>{author.name}</h6>
-                                <ul className="blog-meta">
-                                    <li>{post.postdata.publishedAt}</li>
-                                    <li>{post.postdata.readingTime}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div
-                        className="thumbnail axil-carousel axil-arrow-button botton-bottom-transparent axil-carousel slick-carousel-0 slick-initialized slick-slider slick-dotted">
-                        {post.postdata.thumbnail.gallery.length > 0 && (
-                            <Slider {...settings}>
-                                {post.postdata.thumbnail.gallery.map((item, index) => {
-                                    return (
-                                        <Link
-                                            href={`/blog/${post.slug}`}
-                                            key={`gallery-item-${index}`}
-                                        legacyBehavior>
-                                            <a>
-                                                <Image
-                                                    width={850}
-                                                    height={450}
-                                                    className="w-100"
-                                                    src={item}
-                                                    alt="Blog Images"
-                                                />
-                                            </a>
-                                        </Link>
-                                    );
-                                })}
-                            </Slider>
-                        )}
-                    </div>
+  return (
+    <>
+      {/* Default Post */}
+      {postType === "default" && (
+        <div className="axil-blog-list">
+          <div className="blog-top">
+            <h3 className="title">
+              <Link href={`/blog/${post.slug}`} legacyBehavior>
+                {post.postdata.title}
+              </Link>
+            </h3>
+            <div className="author">
+              <div className="author-thumb">
+                <Image width={50} height={50} src={authorAvatar} alt="Author" />
+              </div>
+              <div className="info">
+                <h6>{authorName}</h6>
+                <ul className="blog-meta">
+                  <li>{post.postdata.date}</li>
+                  <li>{post.postdata.readingTime || '2 min read'}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-                    <div className="content">
-                        <p>{post.postdata.excerpt}</p>
-                        <Link href={`/blog/${post.slug}`} legacyBehavior>
-                            <a className="axil-button btn-large btn-transparent">
-                                <span className="button-text">Read More</span>
-                                <span className="button-icon"></span>
-                            </a>
-                        </Link>
-                    </div>
-                </div>
-            )}
+          <div className="thumbnail">
+            <Link href={`/blog/${post.slug}`} legacyBehavior>
+              <a>
+                <Image
+                  width={850}
+                  height={450}
+                  className="w-100"
+                 src={post.postdata.thumbnail?.large || "https://res.cloudinary.com/difqelsxz/image/upload/v1750402488/placeholder_xnu6lk.jpg"}
+                  alt="Blog"
+                  priority
+                />
+              </a>
+            </Link>
+          </div>
 
-            {postType === "sticky" && (
-                <div className="axil-blog-list sticky-blog">
-                    <div className="blog-top">
-                        <h3 className="title">
-                            <Link href={`/blog/${post.slug}`} legacyBehavior>{post.postdata.title}</Link>
-                        </h3>
-                        <div className="info">
-                            <div className="info d-flex align-items-center">
-                                <h6 className="mb--0 pr--10">BBC News</h6>
-                                <ul className="blog-meta d-flex align-items-center liststyle">
-                                    <li>{post.postdata.publishedAt}</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="sticky">
-                            <i className="fas fa-link"/>
-                        </div>
-                        <div className="shape-group">
-                            <div className="shape shape-1">
-                                <Image width={146} height={71} src="/images/others/shape-17.svg" alt="Shape Image"/>
-                            </div>
-                            <div className="shape shape-2">
-                                <Image width={146} height={71} src="/images/others/shape-18.svg" alt="Shape Image"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )}
+          <div className="content">
+            <p>{post.postdata.excerpt}</p>
+            <Link href={`/blog/${post.slug}`} legacyBehavior>
+              <a className="axil-button btn-large btn-transparent">
+                <span className="button-text">Read More</span>
+                <span className="button-icon" />
+              </a>
+            </Link>
+          </div>
+        </div>
+      )}
 
-            {postType === "quote" && (
-                <div className="axil-blog-list quote-blog">
-                    <div className="blog-top">
-                        <blockquote>
-                            <h3 className="title">
-                                <Link href={`/blog/${post.slug}`} legacyBehavior>{post.postdata.title}</Link>
-                            </h3>
-                        </blockquote>
-                        <div className="author">
-                            <div className="author-thumb">
-                                <Image width={50} height={50} src="/images/blog/author-01.jpg" alt="Blog Author"/>
-                            </div>
-                            <div className="info">
-                                <h6>{author.name}</h6>
-                                <ul className="blog-meta">
-                                    <li>{author.designation}</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="shape-group">
-                            <div className="shape shape-1">
-                                <i className="icon icon-shape-17"/>
-                            </div>
-                            <div className="shape shape-2">
-                                <i className="icon icon-shape-18"/>
-                            </div>
-                            <div className="shape shape-3">
-                                <i className="icon icon-quote"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )}
+      {/* Gallery Post */}
+      {postType === "gallery" && post.postdata.thumbnail?.gallery?.length > 0 && (
+        <div className="axil-blog-list gallery-post">
+          <div className="blog-top">
+            <h3 className="title">
+              <Link href={`/blog/${post.slug}`} legacyBehavior>
+                {post.postdata.title}
+              </Link>
+            </h3>
+            <div className="author">
+              <div className="author-thumb">
+                <Image width={50} height={50} src={authorAvatar} alt="Author" />
+              </div>
+              <div className="info">
+                <h6>{authorName}</h6>
+                <ul className="blog-meta">
+                  <li>{post.postdata.date}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-            {postType === "video" && (
-                <div className="axil-blog-list">
-                    <div className="blog-top">
-                        <h3 className="title">
-                            <Link href={`/blog/${post.slug}`} legacyBehavior>{post.postdata.title}</Link>
-                        </h3>
-                        <div className="author">
-                            <div className="author-thumb">
-                                {author.avatar && (
-                                    <Image
-                                        width={50}
-                                        height={50}
-                                        src={author.avatar}
-                                        alt="Blog Author"
-                                    />
-                                )}
-                            </div>
-                            <div className="info">
-                                <h6>{author.name}</h6>
-                                <ul className="blog-meta">
-                                    <li>{post.postdata.publishedAt}</li>
-                                    <li>{post.postdata.readingTime}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="thumbnail position-relative">
-                        <Link href={`/blog/${post.slug}`} legacyBehavior>
-                            <a>
-                                <Image
-                                    width={850}
-                                    height={450}
-                                    className="w-100"
-                                    src={post.postdata.thumbnail.large}
-                                    alt="Blog Images"
-                                />
-                            </a>
-                        </Link>
-                        <div className="video-button position-to-top">
-                            <a className="play__btn video-btn"
-                               href="https://www.youtube.com/watch?v=Pj_geat9hvI"
-                               data-bs-toggle="modal"
-                               data-bs-target="#exampleModal">
-                                <span className="triangle"/>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="content">
-                        <p>{post.postdata.excerpt}</p>
-                        <Link href={`/blog/${post.slug}`} legacyBehavior>
-                            <a className="axil-button btn-large btn-transparent">
-                                <span className="button-text">Read More</span>
-                                <span className="button-icon"/>
-                            </a>
-                        </Link>
-                    </div>
-                </div>
-            )}
+          <div className="thumbnail axil-carousel slick-initialized slick-slider slick-dotted">
+            <Slider {...settings}>
+              {post.postdata.thumbnail.gallery.map((img, i) => (
+                <Link href={`/blog/${post.slug}`} key={i} legacyBehavior>
+                  <a>
+                    <Image width={850} height={450} className="w-100" src={img} alt="Blog Gallery" />
+                  </a>
+                </Link>
+              ))}
+            </Slider>
+          </div>
 
-            {(isWindow && post.postdata.videoUrl) && (
-                <VideoPlayer url={post.postdata.videoUrl}/>
-            )}
-        </>
-    );
+          <div className="content">
+            <p>{post.postdata.excerpt}</p>
+            <Link href={`/blog/${post.slug}`} legacyBehavior>
+              <a className="axil-button btn-large btn-transparent">
+                <span className="button-text">Read More</span>
+                <span className="button-icon"></span>
+              </a>
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {/* Quote Post */}
+      {postType === "quote" && (
+        <div className="axil-blog-list quote-blog">
+          <div className="blog-top">
+            <blockquote>
+              <h3 className="title">
+                <Link href={`/blog/${post.slug}`} legacyBehavior>
+                  {post.postdata.title}
+                </Link>
+              </h3>
+            </blockquote>
+            <div className="author">
+              <div className="author-thumb">
+                <Image width={50} height={50} src={authorAvatar} alt="Author" />
+              </div>
+              <div className="info">
+                <h6>{authorName}</h6>
+                <ul className="blog-meta">
+                  <li>{post.postdata.date}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Video Post */}
+      {postType === "video" && (
+        <div className="axil-blog-list">
+          <div className="blog-top">
+            <h3 className="title">
+              <Link href={`/blog/${post.slug}`} legacyBehavior>
+                {post.postdata.title}
+              </Link>
+            </h3>
+            <div className="author">
+              <div className="author-thumb">
+                <Image width={50} height={50} src={authorAvatar} alt="Author" />
+              </div>
+              <div className="info">
+                <h6>{authorName}</h6>
+                <ul className="blog-meta">
+                  <li>{post.postdata.date}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="thumbnail position-relative">
+            <Link href={`/blog/${post.slug}`} legacyBehavior>
+              <a>
+                <Image
+                  width={850}
+                  height={450}
+                  className="w-100"
+                  src={post.postdata.thumbnail?.large || "/images/placeholder.jpg"}
+                  alt="Blog"
+                />
+              </a>
+            </Link>
+            <div className="video-button position-to-top">
+              <a
+                className="play__btn video-btn"
+                href={post.postdata.videoUrl || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="triangle" />
+              </a>
+            </div>
+          </div>
+          <div className="content">
+            <p>{post.postdata.excerpt}</p>
+            <Link href={`/blog/${post.slug}`} legacyBehavior>
+              <a className="axil-button btn-large btn-transparent">
+                <span className="button-text">Read More</span>
+                <span className="button-icon" />
+              </a>
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {/* Video Player Embed */}
+      {isWindow && post.postdata.videoUrl && <VideoPlayer url={post.postdata.videoUrl} />}
+    </>
+  );
 };
 
 export default BlogPost;

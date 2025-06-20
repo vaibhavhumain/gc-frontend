@@ -30,15 +30,8 @@ const CommingSoon = () => {
                                             Our new product <br/> on its way
                                         </h1>
                                         <p className="subtitle-2 mb--40 mb_sm--20 mb_md--20">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
-                                            <br/> sed do eiusmod tempor incididunt ut labore et
-                                            dolore <br/> magna aliqua.{" "}
+                                            Stay tuned for our upcoming products .  
                                         </p>
-                                        <div className="box-timer countdown-style-1">
-                                            <div className="countbox timer-grid">
-                                                <CountDownTimer/>
-                                            </div>
-                                        </div>
                                         <div className="axil-newsletter mt--40 mt_md--20 mt_sm--20">
                                             <form className="newsletter-form" action="#">
                                                 <input type="email" placeholder="Email"/>

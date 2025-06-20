@@ -8,7 +8,7 @@ const BlogCardOne = ({column, data, index, activeIndex}) => {
             <div
                 className={`axil-blog axil-control mt--40 ${
                     activeIndex === index ? "active" : ""
-                }`}
+                }`}     
                 onMouseEnter={() => changeActive(index)}
             >
                 <div className="content">

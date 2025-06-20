@@ -18,9 +18,7 @@ const ErrorPage = () => {
                                     <div className="inner">
                                         <h1 className="title mb--20">Page not Found</h1>
                                         <p className="subtitle-2 mb--30">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                            Enim, recusandae <br/> consectetur nesciunt magnam
-                                            facilis aliquid amet earum alias?
+                                            The page you are looking for is not available at the moment <br/>So please go back 
                                         </p>
                                         <Link href="/" className="axil-button btn-large btn-transparent">
 
