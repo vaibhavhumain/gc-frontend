@@ -110,7 +110,7 @@
     "id": 7,
     "name": "Paramjeet Singh Malik",
     "image": "/images/team/Param.jpg",
-    "designation": "Executive Manager",
+    "designation": "Executive Assistant",
     "department": ["Management & Admin"],
     "socials": [
       { "type": "twitter", "url": "#" },
@@ -156,6 +156,42 @@
   },
   {
     "id": 10,
+    "name": "Deepak Kumar",
+    "image": "/images/team/team-04.jpg",
+    "designation": "HR Recruiter",
+    "department": ["HR"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 11,
+    "name": "Palwinder Singh",
+    "image": "/images/team/team-04.jpg",
+    "designation": "HR Recruiter",
+    "department": ["HR"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "twitter", "url": "#" },
+      { "type": "pinterest", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "vimeo", "url": "#" },
+      { "type": "dribble", "url": "#" },
+      { "type": "behance", "url": "#" }
+    ],
+    "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
+  },
+  {
+    "id": 12,
     "name": "Malkit Singh",
     "image": "/images/team/Malkit.png",
     "designation": "Purchase Manager",
@@ -173,7 +209,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 11,
+    "id": 13,
     "name": "Shalini",
     "image": "/images/team/Shalini.jpg",
     "designation": "Accounts Executive",
@@ -191,7 +227,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Deepak Sharma",
     "image": "/images/team/Deepak.jpg",
     "designation": "Accounts Assistant",
@@ -209,7 +245,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 13,
+    "id": 15,
     "name": "Gurjit Singh",
     "image": "/images/team/Gurjit.png",
     "designation": "Production Supervisor",
@@ -227,7 +263,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 14,
+    "id": 16,
     "name": "Kiranjit Kaur Bhatia",
     "image": "/images/team/Kiran.png",
     "designation": "General Manager Sales",
@@ -245,7 +281,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 15,
+    "id": 17,
     "name": "Balwinder Pal Sharma",
     "image": "/images/team/balwinder.png",
     "designation": "General Manager Inside Sales",
@@ -263,7 +299,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 16,
+    "id": 18,
     "name": "Gursharan Singh Saini",
     "image": "/images/team/Gursharan.png",
     "designation": "Sr. Manager Sales",
@@ -281,7 +317,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 17,
+    "id": 19,
     "name": "Ravi Pal Singh",
     "image": "/images/team/ravi.png",
     "designation": "Area Sales Manager",
@@ -299,7 +335,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 18,
+    "id": 20,
     "name": "Anupam Alok",
     "image": "/images/team/anupam.png",
     "designation": "Area Sales Manager",
@@ -317,7 +353,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 19,
+    "id": 21,
     "name": "Aditya Prakash Upadhyay",
     "image": "/images/team/Aditya.png",
     "designation": "Area Sales Executive",
@@ -329,7 +365,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 20,
+    "id": 22,
     "name": "Shubham Chauhan",
     "image": "/images/team/shubham.png",
     "designation": "Area Sales Executive",
@@ -347,7 +383,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 21,
+    "id": 23,
     "name": "Piyush Chauhan",
     "image": "/images/team/Piyush.png",
     "designation": "Area Sales Executive",
@@ -365,7 +401,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 22,
+    "id": 24,
     "name": "Damini",
     "image": "/images/team/Damini.jpg",
     "designation": "Business Development Executive",
@@ -383,7 +419,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 23,
+    "id": 25,
     "name": "Akshat Mudgal",
     "image": "/images/team/Akshat.png",
     "designation": "Business Development Executive",
@@ -401,7 +437,7 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 24,
+    "id": 26,
     "name": "Rahul Hallen",
     "image": "/images/team/Rahul.png",
     "designation": "Graphic Designer",
@@ -413,13 +449,27 @@
     "introduction": "Phasellus in libero et nunc malesuada tincidunt. Morbi auctor tristique semper. Nunc condimentum dapibus felis, non volutpat ligula dapibus non. Quisque varius massa magna, eget iaculis ipsum tincidunt sed. Sed tempus magna id nunc posuere auctor. Morbi aliquam a justo eget cursus. Donec at quam id ex mollis dapibus eget ac sem. Maecenas pharetra bibendum massa, ut tincidunt lectus."
   },
   {
-    "id": 25,
+    "id": 27,
     "name": "Akash Dhiman",
     "image": "/images/team/Akash.jpg",
     "designation": "Software Developer Engineer(SDE)",
     "department": ["Information Technology"],
-    "contact": "+91 7876639232",
-    "email": "akashdhiman@gobindcoach.com",
+    "contact": "",
+    "email": "",
+    "socials": [
+      { "type": "twitter", "url": "https://x.com/dhima25980" },
+      { "type": "linkedin", "url": "https://www.linkedin.com/in/akash-dhiman-09aa47247/" }
+    ],
+    "introduction": "I am a passionate and driven Software Developer Engineer with 2 years of experience in the software development industry. I have a strong foundation in programming languages and software development methodologies, and I am eager to contribute my skills to GC."
+  },
+  {
+    "id": 28,
+    "name": "Vaibhav",
+    "image": "/images/team/team-04.jpg",
+    "designation": "Jr. Software Developer",
+    "department": ["Information Technology"],
+    "contact": "",
+    "email": "",
     "socials": [
       { "type": "twitter", "url": "https://x.com/dhima25980" },
       { "type": "linkedin", "url": "https://www.linkedin.com/in/akash-dhiman-09aa47247/" }

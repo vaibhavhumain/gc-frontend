@@ -14,7 +14,7 @@ const BannerTwo = () => {
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
                                 >
-                                    Drivin Excellence on Wheels since 1988
+                                    Driving Excellence on Wheels since 1988
                                 </h1>
                                 <Link href="/portfolio" legacyBehavior>
                                     <a className="axil-button btn-large btn-transparent"

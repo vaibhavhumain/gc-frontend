@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Head from 'next/head';
+import { useState, useEffect } from 'react';
+import LogoLoader from '../components/common/LogoLoader';
 import BannerTwo from '../components/banners/BannerTwo';
 import BlogOne from '../components/blogs/BlogOne';
 import BrandTwo from '../components/brands/BrandTwo';
@@ -15,6 +17,7 @@ import TestimonialOne from '../components/testimonials/TestimonialOne';
 import Link from 'next/link'; 
 
 const HomeTwo = ({posts}) => {
+    const [showLoader, setShowLoader] = useState(true);
     const layoutSettings = {
         header: {
             style: "two",
@@ -25,6 +28,9 @@ const HomeTwo = ({posts}) => {
             showCopyrightOnly: false,
         },
     };
+    if (showLoader) {
+        return <LogoLoader onFinish={() => setShowLoader(false)} />;
+    }
 
     return (
         <Layout layoutSettings={layoutSettings}>
